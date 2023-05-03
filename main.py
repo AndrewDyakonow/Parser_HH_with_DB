@@ -1,5 +1,8 @@
+from app_dialog.utils_for_dialog import dialog_one
+
+
 def main():
-    pass
+    dialog_one()
 
 
 if __name__ == '__main__':

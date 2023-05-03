@@ -1,0 +1,4153 @@
+{
+    "items": [
+        {
+            "id": "79060026",
+            "premium": false,
+            "name": "Менеджер по работе с маркетплейсами (начинающий специалист)",
+            "department": null,
+            "has_test": false,
+            "response_letter_required": false,
+            "area": {
+                "id": "2",
+                "name": "Санкт-Петербург",
+                "url": "https://api.hh.ru/areas/2"
+            },
+            "salary": {
+                "from": 20000,
+                "to": 30000,
+                "currency": "RUR",
+                "gross": false
+            },
+            "type": {
+                "id": "open",
+                "name": "Открытая"
+            },
+            "address": null,
+            "response_url": null,
+            "sort_point_distance": null,
+            "published_at": "2023-04-07T21:43:05+0300",
+            "created_at": "2023-04-07T21:43:05+0300",
+            "archived": false,
+            "apply_alternate_url": "https://hh.ru/applicant/vacancy_response?vacancyId=79060026",
+            "insider_interview": null,
+            "url": "https://api.hh.ru/vacancies/79060026?host=hh.ru",
+            "adv_response_url": null,
+            "alternate_url": "https://hh.ru/vacancy/79060026",
+            "relations": [],
+            "employer": {
+                "id": "9735123",
+                "name": "Хасянов Ришат Абдулханнянович",
+                "url": "https://api.hh.ru/employers/9735123",
+                "alternate_url": "https://hh.ru/employer/9735123",
+                "logo_urls": null,
+                "vacancies_url": "https://api.hh.ru/vacancies?employer_id=9735123",
+                "trusted": false
+            },
+            "snippet": {
+                "requirement": "Быстро и успешно развиваюсь на маркетплейсах. Если ты имеешь опыт работы <highlighttext>менеджером</highlighttext> маркетплейсов или хочешь начать развиваться в этой перспективной...",
+                "responsibility": "1. Ведение кабинета на ВБ (возможно в дальнейшем и на Озон). С ростом твоих результатов будет расти сфера ответственности и..."
+            },
+            "contacts": null,
+            "schedule": null,
+            "working_days": [],
+            "working_time_intervals": [],
+            "working_time_modes": [],
+            "accept_temporary": false,
+            "professional_roles": [
+                {
+                    "id": "70",
+                    "name": "Менеджер по продажам, менеджер по работе с клиентами"
+                }
+            ],
+            "accept_incomplete_resumes": false,
+            "experience": {
+                "id": "noExperience",
+                "name": "Нет опыта"
+            },
+            "employment": {
+                "id": "full",
+                "name": "Полная занятость"
+            }
+        },
+        {
+            "id": "66170090",
+            "premium": false,
+            "name": "Менеджер обработки электронных заявок в офисе",
+            "department": null,
+            "has_test": false,
+            "response_letter_required": false,
+            "area": {
+                "id": "32",
+                "name": "Иваново (Ивановская область)",
+                "url": "https://api.hh.ru/areas/32"
+            },
+            "salary": {
+                "from": null,
+                "to": 50000,
+                "currency": "RUR",
+                "gross": true
+            },
+            "type": {
+                "id": "open",
+                "name": "Открытая"
+            },
+            "address": {
+                "city": "Иваново",
+                "street": "Посадский переулок",
+                "building": "4",
+                "lat": 57.008446,
+                "lng": 40.968495,
+                "description": null,
+                "raw": "Иваново, Посадский переулок, 4",
+                "metro": null,
+                "metro_stations": [],
+                "id": "1618018"
+            },
+            "response_url": null,
+            "sort_point_distance": null,
+            "published_at": "2023-05-02T09:26:38+0300",
+            "created_at": "2023-05-02T09:26:38+0300",
+            "archived": false,
+            "apply_alternate_url": "https://hh.ru/applicant/vacancy_response?vacancyId=66170090",
+            "insider_interview": null,
+            "url": "https://api.hh.ru/vacancies/66170090?host=hh.ru",
+            "adv_response_url": null,
+            "alternate_url": "https://hh.ru/vacancy/66170090",
+            "relations": [],
+            "employer": {
+                "id": "3538794",
+                "name": "Баланс Телеком",
+                "url": "https://api.hh.ru/employers/3538794",
+                "alternate_url": "https://hh.ru/employer/3538794",
+                "logo_urls": {
+                    "90": "https://hhcdn.ru/employer-logo/4021763.png",
+                    "240": "https://hhcdn.ru/employer-logo/4021764.png",
+                    "original": "https://hhcdn.ru/employer-logo-original/895269.png"
+                },
+                "vacancies_url": "https://api.hh.ru/vacancies?employer_id=3538794",
+                "trusted": true
+            },
+            "snippet": {
+                "requirement": "Уверенный пользователь ПК. Внимательность. Грамотность письма. Хорошая скорость печати (будет преимуществом). Отсутствие ярко выраженных дефектов речи. Высокий уровень ответственности. ",
+                "responsibility": "Проверка сканов документов на качество изображения. Проверка электронных документов на соответствие правильности заполнения. Ввод данных из заявки в программу. "
+            },
+            "contacts": null,
+            "schedule": null,
+            "working_days": [
+                {
+                    "id": "only_saturday_and_sunday",
+                    "name": "Работа только по сб и вс"
+                }
+            ],
+            "working_time_intervals": [
+                {
+                    "id": "from_four_to_six_hours_in_a_day",
+                    "name": "Можно работать сменами по 4–6 часов в день"
+                }
+            ],
+            "working_time_modes": [
+                {
+                    "id": "start_after_sixteen",
+                    "name": "Можно начинать работать после 16:00"
+                }
+            ],
+            "accept_temporary": false,
+            "professional_roles": [
+                {
+                    "id": "83",
+                    "name": "Оператор call-центра, специалист контактного центра"
+                }
+            ],
+            "accept_incomplete_resumes": false,
+            "experience": {
+                "id": "noExperience",
+                "name": "Нет опыта"
+            },
+            "employment": {
+                "id": "full",
+                "name": "Полная занятость"
+            }
+        },
+        {
+            "id": "79374333",
+            "premium": false,
+            "name": "Региональный менеджер по продажам (Промэнерго)",
+            "department": null,
+            "has_test": false,
+            "response_letter_required": false,
+            "area": {
+                "id": "88",
+                "name": "Казань",
+                "url": "https://api.hh.ru/areas/88"
+            },
+            "salary": {
+                "from": 300000,
+                "to": null,
+                "currency": "RUR",
+                "gross": true
+            },
+            "type": {
+                "id": "open",
+                "name": "Открытая"
+            },
+            "address": {
+                "city": "Зеленодольск",
+                "street": "промышленный парк Зеленодольск",
+                "building": null,
+                "lat": 55.850631,
+                "lng": 48.844843,
+                "description": null,
+                "raw": "Зеленодольск, промышленный парк Зеленодольск",
+                "metro": null,
+                "metro_stations": [],
+                "id": "12028762"
+            },
+            "response_url": null,
+            "sort_point_distance": null,
+            "published_at": "2023-04-17T10:25:01+0300",
+            "created_at": "2023-04-17T10:25:01+0300",
+            "archived": false,
+            "apply_alternate_url": "https://hh.ru/applicant/vacancy_response?vacancyId=79374333",
+            "insider_interview": null,
+            "url": "https://api.hh.ru/vacancies/79374333?host=hh.ru",
+            "adv_response_url": null,
+            "alternate_url": "https://hh.ru/vacancy/79374333",
+            "relations": [],
+            "employer": {
+                "id": "1060821",
+                "name": "Рост Развитие Решение",
+                "url": "https://api.hh.ru/employers/1060821",
+                "alternate_url": "https://hh.ru/employer/1060821",
+                "logo_urls": {
+                    "90": "https://hhcdn.ru/employer-logo/874868.jpeg",
+                    "240": "https://hhcdn.ru/employer-logo/874869.jpeg",
+                    "original": "https://hhcdn.ru/employer-logo-original/85446.jpg"
+                },
+                "vacancies_url": "https://api.hh.ru/vacancies?employer_id=1060821",
+                "trusted": true
+            },
+            "snippet": {
+                "requirement": "Высшее образование (желательно техническое). Опыт работы в продажах B2B. Навыки ведения переговоров на уровне руководства компании. ",
+                "responsibility": "Привлечение новых партнеров, ведение переговоров, участие в выставках. Активные личные продажи, выстраивание долгосрочных взаимовыгодных отношений. Работа с ключевыми лицами компании. "
+            },
+            "contacts": null,
+            "schedule": null,
+            "working_days": [],
+            "working_time_intervals": [],
+            "working_time_modes": [],
+            "accept_temporary": false,
+            "professional_roles": [
+                {
+                    "id": "70",
+                    "name": "Менеджер по продажам, менеджер по работе с клиентами"
+                }
+            ],
+            "accept_incomplete_resumes": false,
+            "experience": {
+                "id": "between1And3",
+                "name": "От 1 года до 3 лет"
+            },
+            "employment": {
+                "id": "full",
+                "name": "Полная занятость"
+            }
+        },
+        {
+            "id": "79276725",
+            "premium": false,
+            "name": "Менеджер отдела продаж (Виндекс)",
+            "department": null,
+            "has_test": false,
+            "response_letter_required": false,
+            "area": {
+                "id": "88",
+                "name": "Казань",
+                "url": "https://api.hh.ru/areas/88"
+            },
+            "salary": {
+                "from": 94000,
+                "to": null,
+                "currency": "RUR",
+                "gross": false
+            },
+            "type": {
+                "id": "open",
+                "name": "Открытая"
+            },
+            "address": {
+                "city": "Казань",
+                "street": "улица Короленко",
+                "building": "120",
+                "lat": 55.846674,
+                "lng": 49.097125,
+                "description": null,
+                "raw": "Казань, улица Короленко, 120",
+                "metro": null,
+                "metro_stations": [],
+                "id": "11760015"
+            },
+            "response_url": null,
+            "sort_point_distance": null,
+            "published_at": "2023-04-13T17:16:03+0300",
+            "created_at": "2023-04-13T17:16:03+0300",
+            "archived": false,
+            "apply_alternate_url": "https://hh.ru/applicant/vacancy_response?vacancyId=79276725",
+            "insider_interview": null,
+            "url": "https://api.hh.ru/vacancies/79276725?host=hh.ru",
+            "adv_response_url": null,
+            "alternate_url": "https://hh.ru/vacancy/79276725",
+            "relations": [],
+            "employer": {
+                "id": "1060821",
+                "name": "Рост Развитие Решение",
+                "url": "https://api.hh.ru/employers/1060821",
+                "alternate_url": "https://hh.ru/employer/1060821",
+                "logo_urls": {
+                    "90": "https://hhcdn.ru/employer-logo/874868.jpeg",
+                    "240": "https://hhcdn.ru/employer-logo/874869.jpeg",
+                    "original": "https://hhcdn.ru/employer-logo-original/85446.jpg"
+                },
+                "vacancies_url": "https://api.hh.ru/vacancies?employer_id=1060821",
+                "trusted": true
+            },
+            "snippet": {
+                "requirement": "Опыт работы в продажах B2B . -Навыки ведения переговоров на уровне руководства компании. -Коммуникабельность, грамотная устная и письменная речь.",
+                "responsibility": "Привлечение новых клиентов, ведение переговоров. -Активные личные продажи, выстраивание долгосрочных взаимовыгодных отношений. -Выполнение планов продаж. -Отчетность в Битрикс 24 в..."
+            },
+            "contacts": null,
+            "schedule": null,
+            "working_days": [],
+            "working_time_intervals": [],
+            "working_time_modes": [],
+            "accept_temporary": false,
+            "professional_roles": [
+                {
+                    "id": "70",
+                    "name": "Менеджер по продажам, менеджер по работе с клиентами"
+                }
+            ],
+            "accept_incomplete_resumes": false,
+            "experience": {
+                "id": "between1And3",
+                "name": "От 1 года до 3 лет"
+            },
+            "employment": {
+                "id": "full",
+                "name": "Полная занятость"
+            }
+        },
+        {
+            "id": "78966670",
+            "premium": false,
+            "name": "Менеджер по продажам в интернет-магазин Казанова",
+            "department": null,
+            "has_test": false,
+            "response_letter_required": false,
+            "area": {
+                "id": "1",
+                "name": "Москва",
+                "url": "https://api.hh.ru/areas/1"
+            },
+            "salary": {
+                "from": 50000,
+                "to": 90000,
+                "currency": "RUR",
+                "gross": false
+            },
+            "type": {
+                "id": "open",
+                "name": "Открытая"
+            },
+            "address": {
+                "city": "Москва",
+                "street": "Юго-Восточный административный округ, Нижегородский район, Автомобильный проезд",
+                "building": "10с5",
+                "lat": 55.725372,
+                "lng": 37.708949,
+                "description": null,
+                "raw": "Москва, Юго-Восточный административный округ, Нижегородский район, Автомобильный проезд, 10с5",
+                "metro": null,
+                "metro_stations": [],
+                "id": "3090846"
+            },
+            "response_url": null,
+            "sort_point_distance": null,
+            "published_at": "2023-04-05T23:35:01+0300",
+            "created_at": "2023-04-05T23:35:01+0300",
+            "archived": false,
+            "apply_alternate_url": "https://hh.ru/applicant/vacancy_response?vacancyId=78966670",
+            "insider_interview": null,
+            "url": "https://api.hh.ru/vacancies/78966670?host=hh.ru",
+            "adv_response_url": null,
+            "alternate_url": "https://hh.ru/vacancy/78966670",
+            "relations": [],
+            "employer": {
+                "id": "4304087",
+                "name": "Секс-шоп Казанова",
+                "url": "https://api.hh.ru/employers/4304087",
+                "alternate_url": "https://hh.ru/employer/4304087",
+                "logo_urls": {
+                    "original": "https://hhcdn.ru/employer-logo-original/683516.jpg",
+                    "240": "https://hhcdn.ru/employer-logo/3175197.jpeg",
+                    "90": "https://hhcdn.ru/employer-logo/3175196.jpeg"
+                },
+                "vacancies_url": "https://api.hh.ru/vacancies?employer_id=4304087",
+                "trusted": true
+            },
+            "snippet": {
+                "requirement": "...или смежных направлениях. Знание начального уровня графических программам и CMS (Photoshop, любая CMS все они похожи). Опыт работы контент-<highlighttext>менеджером</highlighttext>.",
+                "responsibility": "Консультирование клиентов по товару. Прием и обработка и оформление заказов согласно регламенту. Отгрузка заказов. Прием товара на склад. "
+            },
+            "contacts": null,
+            "schedule": null,
+            "working_days": [],
+            "working_time_intervals": [],
+            "working_time_modes": [],
+            "accept_temporary": false,
+            "professional_roles": [
+                {
+                    "id": "70",
+                    "name": "Менеджер по продажам, менеджер по работе с клиентами"
+                }
+            ],
+            "accept_incomplete_resumes": false,
+            "experience": {
+                "id": "between1And3",
+                "name": "От 1 года до 3 лет"
+            },
+            "employment": {
+                "id": "full",
+                "name": "Полная занятость"
+            }
+        },
+        {
+            "id": "79896820",
+            "premium": false,
+            "name": "Менеджер по продажам",
+            "department": null,
+            "has_test": false,
+            "response_letter_required": false,
+            "area": {
+                "id": "1",
+                "name": "Москва",
+                "url": "https://api.hh.ru/areas/1"
+            },
+            "salary": {
+                "from": 70000,
+                "to": 100000,
+                "currency": "RUR",
+                "gross": false
+            },
+            "type": {
+                "id": "open",
+                "name": "Открытая"
+            },
+            "address": {
+                "city": "Москва",
+                "street": "Шарикоподшипниковская улица",
+                "building": "13с1",
+                "lat": 55.717229,
+                "lng": 37.677831,
+                "description": null,
+                "raw": "Москва, Шарикоподшипниковская улица, 13с1",
+                "metro": null,
+                "metro_stations": [],
+                "id": "2637563"
+            },
+            "response_url": null,
+            "sort_point_distance": null,
+            "published_at": "2023-04-27T23:29:11+0300",
+            "created_at": "2023-04-27T23:29:11+0300",
+            "archived": false,
+            "apply_alternate_url": "https://hh.ru/applicant/vacancy_response?vacancyId=79896820",
+            "insider_interview": null,
+            "url": "https://api.hh.ru/vacancies/79896820?host=hh.ru",
+            "adv_response_url": null,
+            "alternate_url": "https://hh.ru/vacancy/79896820",
+            "relations": [],
+            "employer": {
+                "id": "4038365",
+                "name": "Бринго Столица",
+                "url": "https://api.hh.ru/employers/4038365",
+                "alternate_url": "https://hh.ru/employer/4038365",
+                "logo_urls": {
+                    "original": "https://hhcdn.ru/employer-logo-original/644657.png",
+                    "90": "https://hhcdn.ru/employer-logo/3019776.png",
+                    "240": "https://hhcdn.ru/employer-logo/3019777.png"
+                },
+                "vacancies_url": "https://api.hh.ru/vacancies?employer_id=4038365",
+                "trusted": true
+            },
+            "snippet": {
+                "requirement": "У тебя есть опыт в сфере продаж услуг b2b от 1 года. Ты готов к интенсивной работе и...",
+                "responsibility": "Поиск, привлечение и первичное ведение новых корпоративных клиентов. Проведение встреч, презентаций, переговоров с первыми лицами компаний. Развитие привлеченных клиентов."
+            },
+            "contacts": null,
+            "schedule": null,
+            "working_days": [],
+            "working_time_intervals": [],
+            "working_time_modes": [],
+            "accept_temporary": false,
+            "professional_roles": [
+                {
+                    "id": "70",
+                    "name": "Менеджер по продажам, менеджер по работе с клиентами"
+                }
+            ],
+            "accept_incomplete_resumes": false,
+            "experience": {
+                "id": "between1And3",
+                "name": "От 1 года до 3 лет"
+            },
+            "employment": {
+                "id": "full",
+                "name": "Полная занятость"
+            }
+        },
+        {
+            "id": "79313324",
+            "premium": false,
+            "name": "Менеджер по оптовым продажам",
+            "department": null,
+            "has_test": false,
+            "response_letter_required": false,
+            "area": {
+                "id": "1",
+                "name": "Москва",
+                "url": "https://api.hh.ru/areas/1"
+            },
+            "salary": {
+                "from": 50000,
+                "to": 150000,
+                "currency": "RUR",
+                "gross": true
+            },
+            "type": {
+                "id": "open",
+                "name": "Открытая"
+            },
+            "address": {
+                "city": "Москва",
+                "street": "Дербеневская набережная",
+                "building": "11",
+                "lat": 55.721189,
+                "lng": 37.652301,
+                "description": null,
+                "raw": "Москва, Дербеневская набережная, 11",
+                "metro": {
+                    "station_name": "Павелецкая",
+                    "line_name": "Замоскворецкая",
+                    "station_id": "2.101",
+                    "line_id": "2",
+                    "lat": 55.729741,
+                    "lng": 37.638693
+                },
+                "metro_stations": [
+                    {
+                        "station_name": "Павелецкая",
+                        "line_name": "Замоскворецкая",
+                        "station_id": "2.101",
+                        "line_id": "2",
+                        "lat": 55.729741,
+                        "lng": 37.638693
+                    },
+                    {
+                        "station_name": "Пролетарская",
+                        "line_name": "Таганско-Краснопресненская",
+                        "station_id": "7.62",
+                        "line_id": "7",
+                        "lat": 55.731546,
+                        "lng": 37.666917
+                    }
+                ],
+                "id": "13079203"
+            },
+            "response_url": null,
+            "sort_point_distance": null,
+            "published_at": "2023-04-14T15:15:45+0300",
+            "created_at": "2023-04-14T15:15:45+0300",
+            "archived": false,
+            "apply_alternate_url": "https://hh.ru/applicant/vacancy_response?vacancyId=79313324",
+            "insider_interview": null,
+            "url": "https://api.hh.ru/vacancies/79313324?host=hh.ru",
+            "adv_response_url": null,
+            "alternate_url": "https://hh.ru/vacancy/79313324",
+            "relations": [],
+            "employer": {
+                "id": "9740656",
+                "name": "Гранит и Плитка",
+                "url": "https://api.hh.ru/employers/9740656",
+                "alternate_url": "https://hh.ru/employer/9740656",
+                "logo_urls": null,
+                "vacancies_url": "https://api.hh.ru/vacancies?employer_id=9740656",
+                "trusted": true
+            },
+            "snippet": {
+                "requirement": "Опыт работы <highlighttext>менеджером</highlighttext> по оптовым продажам в строительных материалах не менее 2-х лет. Умение и желание заниматься активными продажами. ",
+                "responsibility": "Оптовые продажи, работа с крупными компаниями, застройщиками. Продажа отделочных и облицовочных материалов, таких как: гранитная плита, керамическая плита, декор панели. "
+            },
+            "contacts": null,
+            "schedule": null,
+            "working_days": [],
+            "working_time_intervals": [],
+            "working_time_modes": [],
+            "accept_temporary": false,
+            "professional_roles": [
+                {
+                    "id": "40",
+                    "name": "Другое"
+                }
+            ],
+            "accept_incomplete_resumes": false,
+            "experience": {
+                "id": "between1And3",
+                "name": "От 1 года до 3 лет"
+            },
+            "employment": {
+                "id": "full",
+                "name": "Полная занятость"
+            }
+        },
+        {
+            "id": "78890082",
+            "premium": false,
+            "name": "Менеджер по продажам (без поиска)",
+            "department": null,
+            "has_test": false,
+            "response_letter_required": false,
+            "area": {
+                "id": "98",
+                "name": "Ульяновск",
+                "url": "https://api.hh.ru/areas/98"
+            },
+            "salary": {
+                "from": 40000,
+                "to": 110000,
+                "currency": "RUR",
+                "gross": true
+            },
+            "type": {
+                "id": "open",
+                "name": "Открытая"
+            },
+            "address": {
+                "city": "Ульяновск",
+                "street": "улица Железной Дивизии",
+                "building": "5Б",
+                "lat": 54.308414,
+                "lng": 48.388013,
+                "description": null,
+                "raw": "Ульяновск, улица Железной Дивизии, 5Б",
+                "metro": null,
+                "metro_stations": [],
+                "id": "554997"
+            },
+            "response_url": null,
+            "sort_point_distance": null,
+            "published_at": "2023-04-30T10:30:33+0300",
+            "created_at": "2023-04-30T10:30:33+0300",
+            "archived": false,
+            "apply_alternate_url": "https://hh.ru/applicant/vacancy_response?vacancyId=78890082",
+            "insider_interview": null,
+            "url": "https://api.hh.ru/vacancies/78890082?host=hh.ru",
+            "adv_response_url": null,
+            "alternate_url": "https://hh.ru/vacancy/78890082",
+            "relations": [],
+            "employer": {
+                "id": "2800",
+                "name": "Группа Актион",
+                "url": "https://api.hh.ru/employers/2800",
+                "alternate_url": "https://hh.ru/employer/2800",
+                "logo_urls": {
+                    "240": "https://hhcdn.ru/employer-logo/4102404.png",
+                    "90": "https://hhcdn.ru/employer-logo/4102403.png",
+                    "original": "https://hhcdn.ru/employer-logo-original/915431.png"
+                },
+                "vacancies_url": "https://api.hh.ru/vacancies?employer_id=2800",
+                "trusted": true
+            },
+            "snippet": {
+                "requirement": "Карьерный рост при наличии управленческих амбиций, целеустремленности и хороших результатов.",
+                "responsibility": "Мы разрабатываем продукты для коммерческих и государственных учреждений: Выпускаем электронные и печатные журналы: Главбух, Упрощенка, Генеральный директор, Кадровое дело и..."
+            },
+            "contacts": null,
+            "schedule": null,
+            "working_days": [],
+            "working_time_intervals": [],
+            "working_time_modes": [],
+            "accept_temporary": false,
+            "professional_roles": [
+                {
+                    "id": "70",
+                    "name": "Менеджер по продажам, менеджер по работе с клиентами"
+                }
+            ],
+            "accept_incomplete_resumes": true,
+            "experience": {
+                "id": "noExperience",
+                "name": "Нет опыта"
+            },
+            "employment": {
+                "id": "full",
+                "name": "Полная занятость"
+            }
+        },
+        {
+            "id": "79422950",
+            "premium": false,
+            "name": "Ассистент менеджера маркетплейсов",
+            "department": null,
+            "has_test": false,
+            "response_letter_required": false,
+            "area": {
+                "id": "1",
+                "name": "Москва",
+                "url": "https://api.hh.ru/areas/1"
+            },
+            "salary": {
+                "from": 20000,
+                "to": 40000,
+                "currency": "RUR",
+                "gross": false
+            },
+            "type": {
+                "id": "open",
+                "name": "Открытая"
+            },
+            "address": null,
+            "response_url": null,
+            "sort_point_distance": null,
+            "published_at": "2023-04-17T21:17:35+0300",
+            "created_at": "2023-04-17T21:17:35+0300",
+            "archived": false,
+            "apply_alternate_url": "https://hh.ru/applicant/vacancy_response?vacancyId=79422950",
+            "insider_interview": null,
+            "url": "https://api.hh.ru/vacancies/79422950?host=hh.ru",
+            "adv_response_url": null,
+            "alternate_url": "https://hh.ru/vacancy/79422950",
+            "relations": [],
+            "employer": {
+                "id": "1261467",
+                "name": "Тесла Электроникс",
+                "url": "https://api.hh.ru/employers/1261467",
+                "alternate_url": "https://hh.ru/employer/1261467",
+                "logo_urls": null,
+                "vacancies_url": "https://api.hh.ru/vacancies?employer_id=1261467",
+                "trusted": true
+            },
+            "snippet": {
+                "requirement": "Аккуратность, внимательность.",
+                "responsibility": "Работа с клиентами по вопросам брака и возврата товара (специалист по претензиям). Помощь основному сотруднику в формировании заявок на маркетплейсы..."
+            },
+            "contacts": null,
+            "schedule": null,
+            "working_days": [],
+            "working_time_intervals": [],
+            "working_time_modes": [],
+            "accept_temporary": false,
+            "professional_roles": [
+                {
+                    "id": "68",
+                    "name": "Менеджер по маркетингу, интернет-маркетолог"
+                }
+            ],
+            "accept_incomplete_resumes": false,
+            "experience": {
+                "id": "noExperience",
+                "name": "Нет опыта"
+            },
+            "employment": {
+                "id": "part",
+                "name": "Частичная занятость"
+            }
+        },
+        {
+            "id": "79077004",
+            "premium": false,
+            "name": "Менеджер по продажам",
+            "department": null,
+            "has_test": false,
+            "response_letter_required": false,
+            "area": {
+                "id": "98",
+                "name": "Ульяновск",
+                "url": "https://api.hh.ru/areas/98"
+            },
+            "salary": {
+                "from": 50000,
+                "to": null,
+                "currency": "RUR",
+                "gross": true
+            },
+            "type": {
+                "id": "open",
+                "name": "Открытая"
+            },
+            "address": null,
+            "response_url": null,
+            "sort_point_distance": null,
+            "published_at": "2023-04-10T07:29:09+0300",
+            "created_at": "2023-04-10T07:29:09+0300",
+            "archived": false,
+            "apply_alternate_url": "https://hh.ru/applicant/vacancy_response?vacancyId=79077004",
+            "insider_interview": null,
+            "url": "https://api.hh.ru/vacancies/79077004?host=hh.ru",
+            "adv_response_url": null,
+            "alternate_url": "https://hh.ru/vacancy/79077004",
+            "relations": [],
+            "employer": {
+                "id": "2623513",
+                "name": "Алве Консалт",
+                "url": "https://api.hh.ru/employers/2623513",
+                "alternate_url": "https://hh.ru/employer/2623513",
+                "logo_urls": {
+                    "original": "https://hhcdn.ru/employer-logo-original/704940.png",
+                    "90": "https://hhcdn.ru/employer-logo/3260876.png",
+                    "240": "https://hhcdn.ru/employer-logo/3260877.png"
+                },
+                "vacancies_url": "https://api.hh.ru/vacancies?employer_id=2623513",
+                "trusted": true
+            },
+            "snippet": {
+                "requirement": "Опыт работы в сфере продаж. Опыт совершения холодных звонков. Настойчивость в достижении результата. Хорошие презентационные и коммуникативные навыки. ",
+                "responsibility": "Привлечение новых клиентов - юридические лица и ИП. Осуществление информационной поддержки клиентов. Ведение отчетной документации по проделанной работе."
+            },
+            "contacts": null,
+            "schedule": null,
+            "working_days": [],
+            "working_time_intervals": [],
+            "working_time_modes": [],
+            "accept_temporary": false,
+            "professional_roles": [
+                {
+                    "id": "70",
+                    "name": "Менеджер по продажам, менеджер по работе с клиентами"
+                }
+            ],
+            "accept_incomplete_resumes": false,
+            "experience": {
+                "id": "between1And3",
+                "name": "От 1 года до 3 лет"
+            },
+            "employment": {
+                "id": "full",
+                "name": "Полная занятость"
+            }
+        },
+        {
+            "id": "79981569",
+            "premium": false,
+            "name": "Менеджер пункта выдачи заказов",
+            "department": null,
+            "has_test": false,
+            "response_letter_required": false,
+            "area": {
+                "id": "70",
+                "name": "Оренбург",
+                "url": "https://api.hh.ru/areas/70"
+            },
+            "salary": {
+                "from": 32000,
+                "to": null,
+                "currency": "RUR",
+                "gross": false
+            },
+            "type": {
+                "id": "open",
+                "name": "Открытая"
+            },
+            "address": {
+                "city": "Оренбург",
+                "street": "Загородное шоссе",
+                "building": "1",
+                "lat": 51.85317,
+                "lng": 55.143263,
+                "description": null,
+                "raw": "Оренбург, Загородное шоссе, 1",
+                "metro": null,
+                "metro_stations": [],
+                "id": "12470393"
+            },
+            "response_url": null,
+            "sort_point_distance": null,
+            "published_at": "2023-05-02T11:53:21+0300",
+            "created_at": "2023-05-02T11:53:21+0300",
+            "archived": false,
+            "apply_alternate_url": "https://hh.ru/applicant/vacancy_response?vacancyId=79981569",
+            "insider_interview": null,
+            "url": "https://api.hh.ru/vacancies/79981569?host=hh.ru",
+            "adv_response_url": null,
+            "alternate_url": "https://hh.ru/vacancy/79981569",
+            "relations": [],
+            "employer": {
+                "id": "9451559",
+                "name": "Сдэк Оренбург",
+                "url": "https://api.hh.ru/employers/9451559",
+                "alternate_url": "https://hh.ru/employer/9451559",
+                "logo_urls": {
+                    "original": "https://hhcdn.ru/employer-logo-original/1040481.png",
+                    "240": "https://hhcdn.ru/employer-logo/5782681.png",
+                    "90": "https://hhcdn.ru/employer-logo/5782680.png"
+                },
+                "vacancies_url": "https://api.hh.ru/vacancies?employer_id=9451559",
+                "trusted": true
+            },
+            "snippet": {
+                "requirement": "Работать с компьютером.",
+                "responsibility": "Обслуживать клиентов (выдача посылок, писем, оформление доставки, упаковка отправлений). Консультировать клиентов по условиям получения и отправки писем и посылок. "
+            },
+            "contacts": null,
+            "schedule": null,
+            "working_days": [],
+            "working_time_intervals": [],
+            "working_time_modes": [],
+            "accept_temporary": false,
+            "professional_roles": [
+                {
+                    "id": "40",
+                    "name": "Другое"
+                }
+            ],
+            "accept_incomplete_resumes": false,
+            "experience": {
+                "id": "noExperience",
+                "name": "Нет опыта"
+            },
+            "employment": {
+                "id": "full",
+                "name": "Полная занятость"
+            }
+        },
+        {
+            "id": "80034282",
+            "premium": false,
+            "name": "Руководитель филиала / Территориальный менеджер",
+            "department": null,
+            "has_test": false,
+            "response_letter_required": false,
+            "area": {
+                "id": "88",
+                "name": "Казань",
+                "url": "https://api.hh.ru/areas/88"
+            },
+            "salary": {
+                "from": 120000,
+                "to": null,
+                "currency": "RUR",
+                "gross": false
+            },
+            "type": {
+                "id": "open",
+                "name": "Открытая"
+            },
+            "address": null,
+            "response_url": null,
+            "sort_point_distance": null,
+            "published_at": "2023-05-03T10:38:17+0300",
+            "created_at": "2023-05-03T10:38:17+0300",
+            "archived": false,
+            "apply_alternate_url": "https://hh.ru/applicant/vacancy_response?vacancyId=80034282",
+            "insider_interview": null,
+            "url": "https://api.hh.ru/vacancies/80034282?host=hh.ru",
+            "adv_response_url": null,
+            "alternate_url": "https://hh.ru/vacancy/80034282",
+            "relations": [],
+            "employer": {
+                "id": "5672395",
+                "name": "BAUF",
+                "url": "https://api.hh.ru/employers/5672395",
+                "alternate_url": "https://hh.ru/employer/5672395",
+                "logo_urls": {
+                    "original": "https://hhcdn.ru/employer-logo-original/882956.jpg",
+                    "240": "https://hhcdn.ru/employer-logo/3972532.jpeg",
+                    "90": "https://hhcdn.ru/employer-logo/3972531.jpeg"
+                },
+                "vacancies_url": "https://api.hh.ru/vacancies?employer_id=5672395",
+                "trusted": true
+            },
+            "snippet": {
+                "requirement": "Вы должны любить продавать и видеть себя как лидера продаж. Вам должно нравиться жить продажами, общением с клиентами. ",
+                "responsibility": "Вы будете ответственны за продажи на определенной территории, включая около 80 компаний-клиентов в Казани. 1. Региональное развитие региона в..."
+            },
+            "contacts": null,
+            "schedule": null,
+            "working_days": [],
+            "working_time_intervals": [],
+            "working_time_modes": [],
+            "accept_temporary": false,
+            "professional_roles": [
+                {
+                    "id": "70",
+                    "name": "Менеджер по продажам, менеджер по работе с клиентами"
+                }
+            ],
+            "accept_incomplete_resumes": false,
+            "experience": {
+                "id": "between3And6",
+                "name": "От 3 до 6 лет"
+            },
+            "employment": {
+                "id": "full",
+                "name": "Полная занятость"
+            }
+        },
+        {
+            "id": "79985197",
+            "premium": false,
+            "name": "Помощник менеджера Wildberries",
+            "department": null,
+            "has_test": false,
+            "response_letter_required": false,
+            "area": {
+                "id": "70",
+                "name": "Оренбург",
+                "url": "https://api.hh.ru/areas/70"
+            },
+            "salary": {
+                "from": 25000,
+                "to": null,
+                "currency": "RUR",
+                "gross": false
+            },
+            "type": {
+                "id": "open",
+                "name": "Открытая"
+            },
+            "address": {
+                "city": "Оренбург",
+                "street": "улица 60 лет Октября",
+                "building": "1/2",
+                "lat": 51.769626,
+                "lng": 55.143614,
+                "description": null,
+                "raw": "Оренбург, улица 60 лет Октября, 1/2",
+                "metro": null,
+                "metro_stations": [],
+                "id": "12794396"
+            },
+            "response_url": null,
+            "sort_point_distance": null,
+            "published_at": "2023-05-02T12:31:18+0300",
+            "created_at": "2023-05-02T12:31:18+0300",
+            "archived": false,
+            "apply_alternate_url": "https://hh.ru/applicant/vacancy_response?vacancyId=79985197",
+            "insider_interview": null,
+            "url": "https://api.hh.ru/vacancies/79985197?host=hh.ru",
+            "adv_response_url": null,
+            "alternate_url": "https://hh.ru/vacancy/79985197",
+            "relations": [],
+            "employer": {
+                "id": "3209777",
+                "name": "Mobi711",
+                "url": "https://api.hh.ru/employers/3209777",
+                "alternate_url": "https://hh.ru/employer/3209777",
+                "logo_urls": {
+                    "240": "https://hhcdn.ru/employer-logo/5545441.png",
+                    "90": "https://hhcdn.ru/employer-logo/5545440.png",
+                    "original": "https://hhcdn.ru/employer-logo-original/981154.png"
+                },
+                "vacancies_url": "https://api.hh.ru/vacancies?employer_id=3209777",
+                "trusted": true
+            },
+            "snippet": {
+                "requirement": "ГРАМОТНАЯ ПИСЬМЕННАЯ РЕЧЬ.",
+                "responsibility": "Осуществление обратной связи на WB (работа с отзывами, ответы на вопросы покупателей, чат). Работа с карточками товара для WB. "
+            },
+            "contacts": null,
+            "schedule": null,
+            "working_days": [],
+            "working_time_intervals": [],
+            "working_time_modes": [],
+            "accept_temporary": false,
+            "professional_roles": [
+                {
+                    "id": "3",
+                    "name": "SMM-менеджер, контент-менеджер"
+                }
+            ],
+            "accept_incomplete_resumes": false,
+            "experience": {
+                "id": "noExperience",
+                "name": "Нет опыта"
+            },
+            "employment": {
+                "id": "full",
+                "name": "Полная занятость"
+            }
+        },
+        {
+            "id": "79422620",
+            "premium": false,
+            "name": "Чат-менеджер (без звонков) в онлайн-школу",
+            "department": null,
+            "has_test": false,
+            "response_letter_required": false,
+            "area": {
+                "id": "1641",
+                "name": "Набережные Челны",
+                "url": "https://api.hh.ru/areas/1641"
+            },
+            "salary": {
+                "from": 25000,
+                "to": 60000,
+                "currency": "RUR",
+                "gross": true
+            },
+            "type": {
+                "id": "open",
+                "name": "Открытая"
+            },
+            "address": null,
+            "response_url": null,
+            "sort_point_distance": null,
+            "published_at": "2023-04-20T08:29:02+0300",
+            "created_at": "2023-04-20T08:29:02+0300",
+            "archived": false,
+            "apply_alternate_url": "https://hh.ru/applicant/vacancy_response?vacancyId=79422620",
+            "insider_interview": null,
+            "url": "https://api.hh.ru/vacancies/79422620?host=hh.ru",
+            "adv_response_url": null,
+            "alternate_url": "https://hh.ru/vacancy/79422620",
+            "relations": [],
+            "employer": {
+                "id": "8977564",
+                "name": "EasyCode",
+                "url": "https://api.hh.ru/employers/8977564",
+                "alternate_url": "https://hh.ru/employer/8977564",
+                "logo_urls": {
+                    "original": "https://hhcdn.ru/employer-logo-original/1071040.jpeg",
+                    "240": "https://hhcdn.ru/employer-logo/5904790.jpeg",
+                    "90": "https://hhcdn.ru/employer-logo/5904789.jpeg"
+                },
+                "vacancies_url": "https://api.hh.ru/vacancies?employer_id=8977564",
+                "trusted": true
+            },
+            "snippet": {
+                "requirement": "Можно без опыта. Всему обучим!",
+                "responsibility": "резиденты IT парка республики Татарстан. - обучили уже более 1000 учеников программированию с нуля. ЗАДАЧА: консультация клиентов в переписке через платформу..."
+            },
+            "contacts": null,
+            "schedule": null,
+            "working_days": [],
+            "working_time_intervals": [],
+            "working_time_modes": [],
+            "accept_temporary": true,
+            "professional_roles": [
+                {
+                    "id": "70",
+                    "name": "Менеджер по продажам, менеджер по работе с клиентами"
+                }
+            ],
+            "accept_incomplete_resumes": false,
+            "experience": {
+                "id": "noExperience",
+                "name": "Нет опыта"
+            },
+            "employment": {
+                "id": "full",
+                "name": "Полная занятость"
+            }
+        },
+        {
+            "id": "80009780",
+            "premium": false,
+            "name": "Офис-менеджер",
+            "department": null,
+            "has_test": false,
+            "response_letter_required": false,
+            "area": {
+                "id": "98",
+                "name": "Ульяновск",
+                "url": "https://api.hh.ru/areas/98"
+            },
+            "salary": {
+                "from": 30000,
+                "to": null,
+                "currency": "RUR",
+                "gross": true
+            },
+            "type": {
+                "id": "open",
+                "name": "Открытая"
+            },
+            "address": {
+                "city": "Ульяновск",
+                "street": "Пушкинская улица",
+                "building": "15А",
+                "lat": 54.300339,
+                "lng": 48.380225,
+                "description": null,
+                "raw": "Ульяновск, Пушкинская улица, 15А",
+                "metro": null,
+                "metro_stations": [],
+                "id": "12547918"
+            },
+            "response_url": null,
+            "sort_point_distance": null,
+            "published_at": "2023-05-02T18:14:46+0300",
+            "created_at": "2023-05-02T18:14:46+0300",
+            "archived": false,
+            "apply_alternate_url": "https://hh.ru/applicant/vacancy_response?vacancyId=80009780",
+            "insider_interview": null,
+            "url": "https://api.hh.ru/vacancies/80009780?host=hh.ru",
+            "adv_response_url": null,
+            "alternate_url": "https://hh.ru/vacancy/80009780",
+            "relations": [],
+            "employer": {
+                "id": "44534",
+                "name": "Аптеки ВИТА",
+                "url": "https://api.hh.ru/employers/44534",
+                "alternate_url": "https://hh.ru/employer/44534",
+                "logo_urls": {
+                    "90": "https://hhcdn.ru/employer-logo/2123334.jpeg",
+                    "original": "https://hhcdn.ru/employer-logo-original/420315.jpg",
+                    "240": "https://hhcdn.ru/employer-logo/2123335.jpeg"
+                },
+                "vacancies_url": "https://api.hh.ru/vacancies?employer_id=44534",
+                "trusted": true
+            },
+            "snippet": {
+                "requirement": "Навык работы в MS Word, Excel. Знание правил оформления деловой документации (письма, распорядительные документы и т.п.). Грамотная письменная и...",
+                "responsibility": "Приём, регистрация и обработка входящей и исходящей документации. Подготовка служебных записок/заявлений/приказов. Обеспечение офиса и аптечных организаций канц. "
+            },
+            "contacts": null,
+            "schedule": null,
+            "working_days": [],
+            "working_time_intervals": [],
+            "working_time_modes": [],
+            "accept_temporary": false,
+            "professional_roles": [
+                {
+                    "id": "88",
+                    "name": "Офис-менеджер"
+                }
+            ],
+            "accept_incomplete_resumes": true,
+            "experience": {
+                "id": "noExperience",
+                "name": "Нет опыта"
+            },
+            "employment": {
+                "id": "full",
+                "name": "Полная занятость"
+            }
+        },
+        {
+            "id": "79968623",
+            "premium": false,
+            "name": "Менеджер в WhatsApp",
+            "department": null,
+            "has_test": false,
+            "response_letter_required": false,
+            "area": {
+                "id": "4",
+                "name": "Новосибирск",
+                "url": "https://api.hh.ru/areas/4"
+            },
+            "salary": {
+                "from": 63000,
+                "to": 130000,
+                "currency": "RUR",
+                "gross": true
+            },
+            "type": {
+                "id": "open",
+                "name": "Открытая"
+            },
+            "address": null,
+            "response_url": null,
+            "sort_point_distance": null,
+            "published_at": "2023-05-02T09:29:59+0300",
+            "created_at": "2023-05-02T09:29:59+0300",
+            "archived": false,
+            "apply_alternate_url": "https://hh.ru/applicant/vacancy_response?vacancyId=79968623",
+            "insider_interview": null,
+            "url": "https://api.hh.ru/vacancies/79968623?host=hh.ru",
+            "adv_response_url": null,
+            "alternate_url": "https://hh.ru/vacancy/79968623",
+            "relations": [],
+            "employer": {
+                "id": "9811822",
+                "name": "Нагорнов Илья Викторович",
+                "url": "https://api.hh.ru/employers/9811822",
+                "alternate_url": "https://hh.ru/employer/9811822",
+                "logo_urls": null,
+                "vacancies_url": "https://api.hh.ru/vacancies?employer_id=9811822",
+                "trusted": false
+            },
+            "snippet": {
+                "requirement": "Внимательного, любящего людей сотрудника. У которого есть постоянный доступ к интернету и как минимум современный телефон.",
+                "responsibility": "Закрывать сделки на обучение школы (отдельные уроки, продленку, программу обучения из различных занятий путем переписки). Сформированный счет отправлять на оплату..."
+            },
+            "contacts": null,
+            "schedule": null,
+            "working_days": [],
+            "working_time_intervals": [],
+            "working_time_modes": [],
+            "accept_temporary": true,
+            "professional_roles": [
+                {
+                    "id": "8",
+                    "name": "Администратор"
+                }
+            ],
+            "accept_incomplete_resumes": false,
+            "experience": {
+                "id": "noExperience",
+                "name": "Нет опыта"
+            },
+            "employment": {
+                "id": "full",
+                "name": "Полная занятость"
+            }
+        },
+        {
+            "id": "79984002",
+            "premium": false,
+            "name": "Менеджер в отдел снабжения",
+            "department": null,
+            "has_test": false,
+            "response_letter_required": false,
+            "area": {
+                "id": "43",
+                "name": "Калуга",
+                "url": "https://api.hh.ru/areas/43"
+            },
+            "salary": {
+                "from": 50000,
+                "to": 120000,
+                "currency": "RUR",
+                "gross": true
+            },
+            "type": {
+                "id": "open",
+                "name": "Открытая"
+            },
+            "address": {
+                "city": "Калуга",
+                "street": "улица Кирова",
+                "building": null,
+                "lat": 54.514216,
+                "lng": 36.258718,
+                "description": null,
+                "raw": "Калуга, улица Кирова",
+                "metro": null,
+                "metro_stations": [],
+                "id": "13166413"
+            },
+            "response_url": null,
+            "sort_point_distance": null,
+            "published_at": "2023-05-02T12:19:23+0300",
+            "created_at": "2023-05-02T12:19:23+0300",
+            "archived": false,
+            "apply_alternate_url": "https://hh.ru/applicant/vacancy_response?vacancyId=79984002",
+            "insider_interview": null,
+            "url": "https://api.hh.ru/vacancies/79984002?host=hh.ru",
+            "adv_response_url": null,
+            "alternate_url": "https://hh.ru/vacancy/79984002",
+            "relations": [],
+            "employer": {
+                "id": "9778965",
+                "name": "Экспертыч",
+                "url": "https://api.hh.ru/employers/9778965",
+                "alternate_url": "https://hh.ru/employer/9778965",
+                "logo_urls": {
+                    "90": "https://hhcdn.ru/employer-logo/5983333.jpeg",
+                    "240": "https://hhcdn.ru/employer-logo/5983334.jpeg",
+                    "original": "https://hhcdn.ru/employer-logo-original/1090677.jpeg"
+                },
+                "vacancies_url": "https://api.hh.ru/vacancies?employer_id=9778965",
+                "trusted": true
+            },
+            "snippet": {
+                "requirement": "релевантный опыт работы от года (желательно в закупках строительной группы товара). - максимальная внимательность, ответственность и хорошие коммуникативные навыки. - ",
+                "responsibility": "В связи с открытием новых направлений и расширением ассортиментной матрицы мы в поисках дополнительного сотрудника в отдел закупок. "
+            },
+            "contacts": null,
+            "schedule": null,
+            "working_days": [],
+            "working_time_intervals": [],
+            "working_time_modes": [],
+            "accept_temporary": false,
+            "professional_roles": [
+                {
+                    "id": "66",
+                    "name": "Менеджер по закупкам"
+                }
+            ],
+            "accept_incomplete_resumes": false,
+            "experience": {
+                "id": "between3And6",
+                "name": "От 3 до 6 лет"
+            },
+            "employment": {
+                "id": "full",
+                "name": "Полная занятость"
+            }
+        },
+        {
+            "id": "79974897",
+            "premium": false,
+            "name": "Менеджер по туризму",
+            "department": null,
+            "has_test": false,
+            "response_letter_required": false,
+            "area": {
+                "id": "96",
+                "name": "Ижевск",
+                "url": "https://api.hh.ru/areas/96"
+            },
+            "salary": {
+                "from": 40000,
+                "to": null,
+                "currency": "RUR",
+                "gross": false
+            },
+            "type": {
+                "id": "open",
+                "name": "Открытая"
+            },
+            "address": {
+                "city": "Завьяловский район",
+                "street": "аэропорт Ижевск",
+                "building": null,
+                "lat": 56.830847,
+                "lng": 53.450577,
+                "description": null,
+                "raw": "Завьяловский район, аэропорт Ижевск",
+                "metro": null,
+                "metro_stations": [],
+                "id": "6930090"
+            },
+            "response_url": null,
+            "sort_point_distance": null,
+            "published_at": "2023-05-02T10:44:55+0300",
+            "created_at": "2023-05-02T10:44:55+0300",
+            "archived": false,
+            "apply_alternate_url": "https://hh.ru/applicant/vacancy_response?vacancyId=79974897",
+            "insider_interview": null,
+            "url": "https://api.hh.ru/vacancies/79974897?host=hh.ru",
+            "adv_response_url": null,
+            "alternate_url": "https://hh.ru/vacancy/79974897",
+            "relations": [],
+            "employer": {
+                "id": "1859577",
+                "name": "Ижавиа",
+                "url": "https://api.hh.ru/employers/1859577",
+                "alternate_url": "https://hh.ru/employer/1859577",
+                "logo_urls": {
+                    "original": "https://hhcdn.ru/employer-logo-original/628815.png",
+                    "90": "https://hhcdn.ru/employer-logo/2956412.png",
+                    "240": "https://hhcdn.ru/employer-logo/2956413.png"
+                },
+                "vacancies_url": "https://api.hh.ru/vacancies?employer_id=1859577",
+                "trusted": true
+            },
+            "snippet": {
+                "requirement": "Образование: среднее специальное, высшее. Опыт работы на аналогичной должности приветствуется. Знание систем бронирования туроператоров. Умение работать в системе 1С. ",
+                "responsibility": "Качественный подбор и бронирование туров для частных клиентов. Консультирование в офисе и в социальных сетях/мессенджерах. Оформление и выдача документации..."
+            },
+            "contacts": null,
+            "schedule": null,
+            "working_days": [],
+            "working_time_intervals": [],
+            "working_time_modes": [],
+            "accept_temporary": false,
+            "professional_roles": [
+                {
+                    "id": "72",
+                    "name": "Менеджер по туризму"
+                }
+            ],
+            "accept_incomplete_resumes": false,
+            "experience": {
+                "id": "between1And3",
+                "name": "От 1 года до 3 лет"
+            },
+            "employment": {
+                "id": "full",
+                "name": "Полная занятость"
+            }
+        },
+        {
+            "id": "80011070",
+            "premium": false,
+            "name": "Офис-менеджер",
+            "department": null,
+            "has_test": false,
+            "response_letter_required": false,
+            "area": {
+                "id": "32",
+                "name": "Иваново (Ивановская область)",
+                "url": "https://api.hh.ru/areas/32"
+            },
+            "salary": {
+                "from": 40000,
+                "to": 53000,
+                "currency": "RUR",
+                "gross": false
+            },
+            "type": {
+                "id": "open",
+                "name": "Открытая"
+            },
+            "address": null,
+            "response_url": null,
+            "sort_point_distance": null,
+            "published_at": "2023-05-02T18:53:45+0300",
+            "created_at": "2023-05-02T18:53:45+0300",
+            "archived": false,
+            "apply_alternate_url": "https://hh.ru/applicant/vacancy_response?vacancyId=80011070",
+            "insider_interview": null,
+            "url": "https://api.hh.ru/vacancies/80011070?host=hh.ru",
+            "adv_response_url": null,
+            "alternate_url": "https://hh.ru/vacancy/80011070",
+            "relations": [],
+            "employer": {
+                "id": "9790593",
+                "name": "Формат 37",
+                "url": "https://api.hh.ru/employers/9790593",
+                "alternate_url": "https://hh.ru/employer/9790593",
+                "logo_urls": {
+                    "90": "https://hhcdn.ru/employer-logo/5979473.png",
+                    "240": "https://hhcdn.ru/employer-logo/5979474.png",
+                    "original": "https://hhcdn.ru/employer-logo-original/1089712.png"
+                },
+                "vacancies_url": "https://api.hh.ru/vacancies?employer_id=9790593",
+                "trusted": true
+            },
+            "snippet": {
+                "requirement": "Исполнительность. Способность к обучению и быстрая адаптация. Желание развиваться.",
+                "responsibility": "Прием и регистрация телефонных звонков (без продаж). Работа с входящей информацией, курьерской службой, соц. сетями. Административно-хозяйственная деятельность (заказ воды..."
+            },
+            "contacts": null,
+            "schedule": null,
+            "working_days": [],
+            "working_time_intervals": [],
+            "working_time_modes": [],
+            "accept_temporary": false,
+            "professional_roles": [
+                {
+                    "id": "88",
+                    "name": "Офис-менеджер"
+                }
+            ],
+            "accept_incomplete_resumes": true,
+            "experience": {
+                "id": "noExperience",
+                "name": "Нет опыта"
+            },
+            "employment": {
+                "id": "full",
+                "name": "Полная занятость"
+            }
+        },
+        {
+            "id": "79297509",
+            "premium": false,
+            "name": "Старший менеджер по подбору персонала",
+            "department": null,
+            "has_test": false,
+            "response_letter_required": false,
+            "area": {
+                "id": "1",
+                "name": "Москва",
+                "url": "https://api.hh.ru/areas/1"
+            },
+            "salary": {
+                "from": 95000,
+                "to": null,
+                "currency": "RUR",
+                "gross": false
+            },
+            "type": {
+                "id": "open",
+                "name": "Открытая"
+            },
+            "address": null,
+            "response_url": null,
+            "sort_point_distance": null,
+            "published_at": "2023-04-14T11:10:12+0300",
+            "created_at": "2023-04-14T11:10:12+0300",
+            "archived": false,
+            "apply_alternate_url": "https://hh.ru/applicant/vacancy_response?vacancyId=79297509",
+            "insider_interview": null,
+            "url": "https://api.hh.ru/vacancies/79297509?host=hh.ru",
+            "adv_response_url": null,
+            "alternate_url": "https://hh.ru/vacancy/79297509",
+            "relations": [],
+            "employer": {
+                "id": "1551312",
+                "name": "UP business",
+                "url": "https://api.hh.ru/employers/1551312",
+                "alternate_url": "https://hh.ru/employer/1551312",
+                "logo_urls": {
+                    "90": "https://hhcdn.ru/employer-logo/2981572.jpeg",
+                    "240": "https://hhcdn.ru/employer-logo/2981573.jpeg",
+                    "original": "https://hhcdn.ru/employer-logo-original/635105.jpg"
+                },
+                "vacancies_url": "https://api.hh.ru/vacancies?employer_id=1551312",
+                "trusted": true
+            },
+            "snippet": {
+                "requirement": "Навык самостоятельной оценки и внедрения соискателей на разные позиции — от линейных сотрудников до топ-<highlighttext>менеджеров</highlighttext>. Навык работы в 1С...",
+                "responsibility": "Снятие заявок с руководителей, поиск сотрудников под потребности бизнеса. Организация и проведение первичных собеседований — отбор кандидатов для финального собеседования с..."
+            },
+            "contacts": null,
+            "schedule": null,
+            "working_days": [],
+            "working_time_intervals": [],
+            "working_time_modes": [],
+            "accept_temporary": false,
+            "professional_roles": [
+                {
+                    "id": "69",
+                    "name": "Менеджер по персоналу"
+                }
+            ],
+            "accept_incomplete_resumes": false,
+            "experience": {
+                "id": "between3And6",
+                "name": "От 3 до 6 лет"
+            },
+            "employment": {
+                "id": "full",
+                "name": "Полная занятость"
+            }
+        },
+        {
+            "id": "80011797",
+            "premium": false,
+            "name": "Офис менеджер с функцией документооборота",
+            "department": null,
+            "has_test": false,
+            "response_letter_required": false,
+            "area": {
+                "id": "1",
+                "name": "Москва",
+                "url": "https://api.hh.ru/areas/1"
+            },
+            "salary": {
+                "from": 80000,
+                "to": null,
+                "currency": "RUR",
+                "gross": false
+            },
+            "type": {
+                "id": "open",
+                "name": "Открытая"
+            },
+            "address": {
+                "city": "Москва",
+                "street": "Берсеневская набережная",
+                "building": "6с3",
+                "lat": 55.740654,
+                "lng": 37.609263,
+                "description": null,
+                "raw": "Москва, Берсеневская набережная, 6с3",
+                "metro": null,
+                "metro_stations": [],
+                "id": "13235100"
+            },
+            "response_url": null,
+            "sort_point_distance": null,
+            "published_at": "2023-05-02T19:19:03+0300",
+            "created_at": "2023-05-02T19:19:03+0300",
+            "archived": false,
+            "apply_alternate_url": "https://hh.ru/applicant/vacancy_response?vacancyId=80011797",
+            "insider_interview": null,
+            "url": "https://api.hh.ru/vacancies/80011797?host=hh.ru",
+            "adv_response_url": null,
+            "alternate_url": "https://hh.ru/vacancy/80011797",
+            "relations": [],
+            "employer": {
+                "id": "47716",
+                "name": "ONY",
+                "url": "https://api.hh.ru/employers/47716",
+                "alternate_url": "https://hh.ru/employer/47716",
+                "logo_urls": {
+                    "original": "https://hhcdn.ru/employer-logo-original/922692.png",
+                    "240": "https://hhcdn.ru/employer-logo/4131329.png",
+                    "90": "https://hhcdn.ru/employer-logo/4131328.png"
+                },
+                "vacancies_url": "https://api.hh.ru/vacancies?employer_id=47716",
+                "trusted": true
+            },
+            "snippet": {
+                "requirement": "Опыт, который мы ждем: Опыт работы на схожей должности не менее года. Понимание процесса документооборота (что должно быть отражено в...",
+                "responsibility": "Закупки продуктов, канцелярии, орг техники для офиса. Поддержка жизнедеятельности офиса - чистота, обустройство, субаренда, общение с арендатором. Помощь в организации праздников..."
+            },
+            "contacts": null,
+            "schedule": null,
+            "working_days": [],
+            "working_time_intervals": [],
+            "working_time_modes": [],
+            "accept_temporary": false,
+            "professional_roles": [
+                {
+                    "id": "40",
+                    "name": "Другое"
+                }
+            ],
+            "accept_incomplete_resumes": true,
+            "experience": {
+                "id": "between1And3",
+                "name": "От 1 года до 3 лет"
+            },
+            "employment": {
+                "id": "full",
+                "name": "Полная занятость"
+            }
+        },
+        {
+            "id": "80052698",
+            "premium": false,
+            "name": "Менеджер по продажам",
+            "department": null,
+            "has_test": false,
+            "response_letter_required": false,
+            "area": {
+                "id": "2",
+                "name": "Санкт-Петербург",
+                "url": "https://api.hh.ru/areas/2"
+            },
+            "salary": {
+                "from": 100000,
+                "to": 150000,
+                "currency": "RUR",
+                "gross": false
+            },
+            "type": {
+                "id": "open",
+                "name": "Открытая"
+            },
+            "address": {
+                "city": "Санкт-Петербург",
+                "street": "Большая Конюшенная улица",
+                "building": "2",
+                "lat": 59.939555,
+                "lng": 30.32433,
+                "description": null,
+                "raw": "Санкт-Петербург, Большая Конюшенная улица, 2",
+                "metro": null,
+                "metro_stations": [],
+                "id": "2650119"
+            },
+            "response_url": null,
+            "sort_point_distance": null,
+            "published_at": "2023-05-03T14:17:37+0300",
+            "created_at": "2023-05-03T14:17:37+0300",
+            "archived": false,
+            "apply_alternate_url": "https://hh.ru/applicant/vacancy_response?vacancyId=80052698",
+            "insider_interview": null,
+            "url": "https://api.hh.ru/vacancies/80052698?host=hh.ru",
+            "adv_response_url": null,
+            "alternate_url": "https://hh.ru/vacancy/80052698",
+            "relations": [],
+            "employer": {
+                "id": "2118453",
+                "name": " DANTONE HOME",
+                "url": "https://api.hh.ru/employers/2118453",
+                "alternate_url": "https://hh.ru/employer/2118453",
+                "logo_urls": {
+                    "90": "https://hhcdn.ru/employer-logo/2503212.jpeg",
+                    "240": "https://hhcdn.ru/employer-logo/2503213.jpeg",
+                    "original": "https://hhcdn.ru/employer-logo-original/515406.jpg"
+                },
+                "vacancies_url": "https://api.hh.ru/vacancies?employer_id=2118453",
+                "trusted": true
+            },
+            "snippet": {
+                "requirement": "Аналогичный опыт работы от 1 года. Опыт работы в продажах будет плюсом. Открытость и умение находить общий язык. ",
+                "responsibility": "Встречать, консультировать, сопровождать клиентов на всех этапах продаж. Обрабатывать входящие звонки и онлайн заявки. Оформлять заказы, работать с дизайнерами, комплектовать..."
+            },
+            "contacts": null,
+            "schedule": null,
+            "working_days": [],
+            "working_time_intervals": [],
+            "working_time_modes": [],
+            "accept_temporary": false,
+            "professional_roles": [
+                {
+                    "id": "70",
+                    "name": "Менеджер по продажам, менеджер по работе с клиентами"
+                }
+            ],
+            "accept_incomplete_resumes": false,
+            "experience": {
+                "id": "moreThan6",
+                "name": "Более 6 лет"
+            },
+            "employment": {
+                "id": "full",
+                "name": "Полная занятость"
+            }
+        },
+        {
+            "id": "79405488",
+            "premium": false,
+            "name": "Менеджер по продажам",
+            "department": null,
+            "has_test": false,
+            "response_letter_required": false,
+            "area": {
+                "id": "1",
+                "name": "Москва",
+                "url": "https://api.hh.ru/areas/1"
+            },
+            "salary": {
+                "from": 100000,
+                "to": null,
+                "currency": "RUR",
+                "gross": false
+            },
+            "type": {
+                "id": "open",
+                "name": "Открытая"
+            },
+            "address": {
+                "city": "Москва",
+                "street": "Волгоградский проспект",
+                "building": "43к3",
+                "lat": 55.713988,
+                "lng": 37.718669,
+                "description": null,
+                "raw": "Москва, Волгоградский проспект, 43к3",
+                "metro": null,
+                "metro_stations": [],
+                "id": "7117279"
+            },
+            "response_url": null,
+            "sort_point_distance": null,
+            "published_at": "2023-04-17T14:47:59+0300",
+            "created_at": "2023-04-17T14:47:59+0300",
+            "archived": false,
+            "apply_alternate_url": "https://hh.ru/applicant/vacancy_response?vacancyId=79405488",
+            "insider_interview": null,
+            "url": "https://api.hh.ru/vacancies/79405488?host=hh.ru",
+            "adv_response_url": null,
+            "alternate_url": "https://hh.ru/vacancy/79405488",
+            "relations": [],
+            "employer": {
+                "id": "3090309",
+                "name": "БЭНСИС",
+                "url": "https://api.hh.ru/employers/3090309",
+                "alternate_url": "https://hh.ru/employer/3090309",
+                "logo_urls": {
+                    "original": "https://hhcdn.ru/employer-logo-original/1027507.jpg",
+                    "240": "https://hhcdn.ru/employer-logo/5730789.jpeg",
+                    "90": "https://hhcdn.ru/employer-logo/5730788.jpeg"
+                },
+                "vacancies_url": "https://api.hh.ru/vacancies?employer_id=3090309",
+                "trusted": true
+            },
+            "snippet": {
+                "requirement": "Опыт работы <highlighttext>менеджером</highlighttext> по продажам или <highlighttext>менеджером</highlighttext> по работе с клиентами. - Опыт работы B2B продажах (желательно оборудование с...",
+                "responsibility": "Работа и развитие существующей АКБ. - Поиск и привлечение новых клиентов (звонки, переговоры, встречи). - Контроль поступлений денежных средств от клиентов. - "
+            },
+            "contacts": null,
+            "schedule": null,
+            "working_days": [],
+            "working_time_intervals": [],
+            "working_time_modes": [],
+            "accept_temporary": false,
+            "professional_roles": [
+                {
+                    "id": "70",
+                    "name": "Менеджер по продажам, менеджер по работе с клиентами"
+                }
+            ],
+            "accept_incomplete_resumes": false,
+            "experience": {
+                "id": "between1And3",
+                "name": "От 1 года до 3 лет"
+            },
+            "employment": {
+                "id": "full",
+                "name": "Полная занятость"
+            }
+        },
+        {
+            "id": "80044528",
+            "premium": false,
+            "name": "Менеджер проектов в госструктуру",
+            "department": null,
+            "has_test": false,
+            "response_letter_required": false,
+            "area": {
+                "id": "99",
+                "name": "Уфа",
+                "url": "https://api.hh.ru/areas/99"
+            },
+            "salary": {
+                "from": 40000,
+                "to": 46000,
+                "currency": "RUR",
+                "gross": false
+            },
+            "type": {
+                "id": "open",
+                "name": "Открытая"
+            },
+            "address": null,
+            "response_url": null,
+            "sort_point_distance": null,
+            "published_at": "2023-05-03T12:38:38+0300",
+            "created_at": "2023-05-03T12:38:38+0300",
+            "archived": false,
+            "apply_alternate_url": "https://hh.ru/applicant/vacancy_response?vacancyId=80044528",
+            "insider_interview": null,
+            "url": "https://api.hh.ru/vacancies/80044528?host=hh.ru",
+            "adv_response_url": null,
+            "alternate_url": "https://hh.ru/vacancy/80044528",
+            "relations": [],
+            "employer": {
+                "id": "1732601",
+                "name": "Министерство цифрового развития государственного управления Республики Башкортостан",
+                "url": "https://api.hh.ru/employers/1732601",
+                "alternate_url": "https://hh.ru/employer/1732601",
+                "logo_urls": null,
+                "vacancies_url": "https://api.hh.ru/vacancies?employer_id=1732601",
+                "trusted": true
+            },
+            "snippet": {
+                "requirement": "Понимание организационного процесса. Стремление к упрощению процессов для быстрого выполнения поставленных задач. Стремление достижения высоких мест в федеральных рейтингах субъектов...",
+                "responsibility": "Организация сотрудников в госучреждениях в целью качественного и оперативного выполнения поставленных руководством федеральных задач (например, создание сообществ в соцсетях, размещение..."
+            },
+            "contacts": null,
+            "schedule": null,
+            "working_days": [],
+            "working_time_intervals": [],
+            "working_time_modes": [],
+            "accept_temporary": false,
+            "professional_roles": [
+                {
+                    "id": "40",
+                    "name": "Другое"
+                }
+            ],
+            "accept_incomplete_resumes": false,
+            "experience": {
+                "id": "noExperience",
+                "name": "Нет опыта"
+            },
+            "employment": {
+                "id": "full",
+                "name": "Полная занятость"
+            }
+        },
+        {
+            "id": "79861384",
+            "premium": false,
+            "name": "Менеджер по продажам",
+            "department": null,
+            "has_test": false,
+            "response_letter_required": false,
+            "area": {
+                "id": "66",
+                "name": "Нижний Новгород",
+                "url": "https://api.hh.ru/areas/66"
+            },
+            "salary": {
+                "from": 70000,
+                "to": null,
+                "currency": "RUR",
+                "gross": false
+            },
+            "type": {
+                "id": "open",
+                "name": "Открытая"
+            },
+            "address": {
+                "city": "Нижний Новгород",
+                "street": "Московское шоссе",
+                "building": "302А",
+                "lat": 56.30855,
+                "lng": 43.823754,
+                "description": null,
+                "raw": "Нижний Новгород, Московское шоссе, 302А",
+                "metro": null,
+                "metro_stations": [],
+                "id": "5129572"
+            },
+            "response_url": null,
+            "sort_point_distance": null,
+            "published_at": "2023-05-03T09:41:24+0300",
+            "created_at": "2023-05-03T09:41:24+0300",
+            "archived": false,
+            "apply_alternate_url": "https://hh.ru/applicant/vacancy_response?vacancyId=79861384",
+            "insider_interview": null,
+            "url": "https://api.hh.ru/vacancies/79861384?host=hh.ru",
+            "adv_response_url": null,
+            "alternate_url": "https://hh.ru/vacancy/79861384",
+            "relations": [],
+            "employer": {
+                "id": "5152584",
+                "name": "АРМА Пласт",
+                "url": "https://api.hh.ru/employers/5152584",
+                "alternate_url": "https://hh.ru/employer/5152584",
+                "logo_urls": {
+                    "original": "https://hhcdn.ru/employer-logo-original/811316.jpg",
+                    "240": "https://hhcdn.ru/employer-logo/3686152.jpeg",
+                    "90": "https://hhcdn.ru/employer-logo/3686151.jpeg"
+                },
+                "vacancies_url": "https://api.hh.ru/vacancies?employer_id=5152584",
+                "trusted": true
+            },
+            "snippet": {
+                "requirement": "20 лет на рынке. Брендодержатели торговых марок: Gulsan, Aquarius, Dreampipe, Котловский. Дистрибьюторы: KZTO, Rifar, Sunsystem, НРЗ, Techno, Volcano, Stout и...",
+                "responsibility": "Продажи, ведение клиентской базы. Активный поиск, привлечение, развитие деловых связей с новыми клиентами. Ведение деловых переговоров с уже действующими клиентами..."
+            },
+            "contacts": null,
+            "schedule": null,
+            "working_days": [],
+            "working_time_intervals": [],
+            "working_time_modes": [],
+            "accept_temporary": true,
+            "professional_roles": [
+                {
+                    "id": "70",
+                    "name": "Менеджер по продажам, менеджер по работе с клиентами"
+                }
+            ],
+            "accept_incomplete_resumes": false,
+            "experience": {
+                "id": "between1And3",
+                "name": "От 1 года до 3 лет"
+            },
+            "employment": {
+                "id": "full",
+                "name": "Полная занятость"
+            }
+        },
+        {
+            "id": "79282552",
+            "premium": false,
+            "name": "Менеджер по работе с клиентами",
+            "department": null,
+            "has_test": false,
+            "response_letter_required": false,
+            "area": {
+                "id": "1",
+                "name": "Москва",
+                "url": "https://api.hh.ru/areas/1"
+            },
+            "salary": {
+                "from": 60000,
+                "to": 90000,
+                "currency": "RUR",
+                "gross": false
+            },
+            "type": {
+                "id": "open",
+                "name": "Открытая"
+            },
+            "address": {
+                "city": "Москва",
+                "street": "Электрозаводская улица",
+                "building": "23с8",
+                "lat": 55.785701,
+                "lng": 37.70196,
+                "description": null,
+                "raw": "Москва, Электрозаводская улица, 23с8",
+                "metro": {
+                    "station_name": "Электрозаводская",
+                    "line_name": "Арбатско-Покровская",
+                    "station_id": "3.161",
+                    "line_id": "3",
+                    "lat": 55.782057,
+                    "lng": 37.7053
+                },
+                "metro_stations": [
+                    {
+                        "station_name": "Электрозаводская",
+                        "line_name": "Арбатско-Покровская",
+                        "station_id": "3.161",
+                        "line_id": "3",
+                        "lat": 55.782057,
+                        "lng": 37.7053
+                    }
+                ],
+                "id": "1778402"
+            },
+            "response_url": null,
+            "sort_point_distance": null,
+            "published_at": "2023-04-13T21:31:49+0300",
+            "created_at": "2023-04-13T21:31:49+0300",
+            "archived": false,
+            "apply_alternate_url": "https://hh.ru/applicant/vacancy_response?vacancyId=79282552",
+            "insider_interview": null,
+            "url": "https://api.hh.ru/vacancies/79282552?host=hh.ru",
+            "adv_response_url": null,
+            "alternate_url": "https://hh.ru/vacancy/79282552",
+            "relations": [],
+            "employer": {
+                "id": "3628171",
+                "name": "Гуднэт",
+                "url": "https://api.hh.ru/employers/3628171",
+                "alternate_url": "https://hh.ru/employer/3628171",
+                "logo_urls": {
+                    "original": "https://hhcdn.ru/employer-logo-original/669977.png",
+                    "240": "https://hhcdn.ru/employer-logo/3121041.png",
+                    "90": "https://hhcdn.ru/employer-logo/3121040.png"
+                },
+                "vacancies_url": "https://api.hh.ru/vacancies?employer_id=3628171",
+                "trusted": true
+            },
+            "snippet": {
+                "requirement": "Высшее образование. Грамотная устная и письменная речь. ПК - уверенный пользователь (высокая скорость печати). Построение и контроль рабочего процесса с участием...",
+                "responsibility": "Обработка заявок от новых клиентов (только юридические лица). Консультация клиентов по нашим продуктам по телефону /в онлайн-консультанте/ whatsapp /zoom. "
+            },
+            "contacts": null,
+            "schedule": null,
+            "working_days": [],
+            "working_time_intervals": [],
+            "working_time_modes": [],
+            "accept_temporary": false,
+            "professional_roles": [
+                {
+                    "id": "70",
+                    "name": "Менеджер по продажам, менеджер по работе с клиентами"
+                }
+            ],
+            "accept_incomplete_resumes": false,
+            "experience": {
+                "id": "between1And3",
+                "name": "От 1 года до 3 лет"
+            },
+            "employment": {
+                "id": "full",
+                "name": "Полная занятость"
+            }
+        },
+        {
+            "id": "78892464",
+            "premium": false,
+            "name": "Менеджер по продажам b2b, Региональный представитель",
+            "department": null,
+            "has_test": false,
+            "response_letter_required": false,
+            "area": {
+                "id": "99",
+                "name": "Уфа",
+                "url": "https://api.hh.ru/areas/99"
+            },
+            "salary": {
+                "from": 80000,
+                "to": 250000,
+                "currency": "RUR",
+                "gross": false
+            },
+            "type": {
+                "id": "open",
+                "name": "Открытая"
+            },
+            "address": {
+                "city": "Уфа",
+                "street": "улица Генерала Горбатова",
+                "building": "2",
+                "lat": 54.717532,
+                "lng": 56.008422,
+                "description": null,
+                "raw": "Уфа, улица Генерала Горбатова, 2",
+                "metro": null,
+                "metro_stations": [],
+                "id": "13046087"
+            },
+            "response_url": null,
+            "sort_point_distance": null,
+            "published_at": "2023-05-03T12:33:14+0300",
+            "created_at": "2023-05-03T12:33:14+0300",
+            "archived": false,
+            "apply_alternate_url": "https://hh.ru/applicant/vacancy_response?vacancyId=78892464",
+            "insider_interview": null,
+            "url": "https://api.hh.ru/vacancies/78892464?host=hh.ru",
+            "adv_response_url": null,
+            "alternate_url": "https://hh.ru/vacancy/78892464",
+            "relations": [],
+            "employer": {
+                "id": "1122405",
+                "name": "Нормал Вент",
+                "url": "https://api.hh.ru/employers/1122405",
+                "alternate_url": "https://hh.ru/employer/1122405",
+                "logo_urls": {
+                    "original": "https://hhcdn.ru/employer-logo-original/393442.jpg",
+                    "90": "https://hhcdn.ru/employer-logo/2016022.jpeg",
+                    "240": "https://hhcdn.ru/employer-logo/2016023.jpeg"
+                },
+                "vacancies_url": "https://api.hh.ru/vacancies?employer_id=1122405",
+                "trusted": true
+            },
+            "snippet": {
+                "requirement": "Умение вести переговоры. Нацеленность на результат. Активная жизненная позиция. Оперативность, внимательность, ответственность.",
+                "responsibility": "Работа с уже существующей клиентской базой, так и активный поиск новых клиентов. Проведение телефонных и личных переговоров, презентаций, в т..."
+            },
+            "contacts": null,
+            "schedule": null,
+            "working_days": [],
+            "working_time_intervals": [],
+            "working_time_modes": [],
+            "accept_temporary": false,
+            "professional_roles": [
+                {
+                    "id": "70",
+                    "name": "Менеджер по продажам, менеджер по работе с клиентами"
+                }
+            ],
+            "accept_incomplete_resumes": false,
+            "experience": {
+                "id": "noExperience",
+                "name": "Нет опыта"
+            },
+            "employment": {
+                "id": "full",
+                "name": "Полная занятость"
+            }
+        },
+        {
+            "id": "80010193",
+            "premium": false,
+            "name": "Менеджер ресторана",
+            "department": null,
+            "has_test": false,
+            "response_letter_required": false,
+            "area": {
+                "id": "1",
+                "name": "Москва",
+                "url": "https://api.hh.ru/areas/1"
+            },
+            "salary": {
+                "from": 100000,
+                "to": 150000,
+                "currency": "RUR",
+                "gross": true
+            },
+            "type": {
+                "id": "open",
+                "name": "Открытая"
+            },
+            "address": {
+                "city": "Москва",
+                "street": "улица Петровка",
+                "building": "3с2",
+                "lat": 55.761051,
+                "lng": 37.618102,
+                "description": null,
+                "raw": "Москва, улица Петровка, 3с2",
+                "metro": null,
+                "metro_stations": [],
+                "id": "399655"
+            },
+            "response_url": null,
+            "sort_point_distance": null,
+            "published_at": "2023-05-02T18:22:12+0300",
+            "created_at": "2023-05-02T18:22:12+0300",
+            "archived": false,
+            "apply_alternate_url": "https://hh.ru/applicant/vacancy_response?vacancyId=80010193",
+            "insider_interview": null,
+            "url": "https://api.hh.ru/vacancies/80010193?host=hh.ru",
+            "adv_response_url": null,
+            "alternate_url": "https://hh.ru/vacancy/80010193",
+            "relations": [],
+            "employer": {
+                "id": "1573923",
+                "name": "Ресторан Большой (Интерречфлот-Тревел, ООО)",
+                "url": "https://api.hh.ru/employers/1573923",
+                "alternate_url": "https://hh.ru/employer/1573923",
+                "logo_urls": {
+                    "240": "https://hhcdn.ru/employer-logo/1089390.jpeg",
+                    "90": "https://hhcdn.ru/employer-logo/1089389.jpeg",
+                    "original": "https://hhcdn.ru/employer-logo-original/7811.JPG"
+                },
+                "vacancies_url": "https://api.hh.ru/vacancies?employer_id=1573923",
+                "trusted": true
+            },
+            "snippet": {
+                "requirement": "опыт работы. - знание английского языка желательно. - психологическая устойчивость. - желание работать.",
+                "responsibility": "контроль работы персонала ресторана. - контроль качества предоставляемых услуг. - проведение банкетных мероприятий."
+            },
+            "contacts": null,
+            "schedule": null,
+            "working_days": [],
+            "working_time_intervals": [],
+            "working_time_modes": [],
+            "accept_temporary": false,
+            "professional_roles": [
+                {
+                    "id": "74",
+                    "name": "Менеджер ресторана"
+                }
+            ],
+            "accept_incomplete_resumes": false,
+            "experience": {
+                "id": "between1And3",
+                "name": "От 1 года до 3 лет"
+            },
+            "employment": {
+                "id": "full",
+                "name": "Полная занятость"
+            }
+        },
+        {
+            "id": "79980407",
+            "premium": false,
+            "name": "Офис-менеджер",
+            "department": null,
+            "has_test": false,
+            "response_letter_required": false,
+            "area": {
+                "id": "19",
+                "name": "Брянск",
+                "url": "https://api.hh.ru/areas/19"
+            },
+            "salary": {
+                "from": 30000,
+                "to": null,
+                "currency": "RUR",
+                "gross": false
+            },
+            "type": {
+                "id": "open",
+                "name": "Открытая"
+            },
+            "address": null,
+            "response_url": null,
+            "sort_point_distance": null,
+            "published_at": "2023-05-02T11:41:13+0300",
+            "created_at": "2023-05-02T11:41:13+0300",
+            "archived": false,
+            "apply_alternate_url": "https://hh.ru/applicant/vacancy_response?vacancyId=79980407",
+            "insider_interview": null,
+            "url": "https://api.hh.ru/vacancies/79980407?host=hh.ru",
+            "adv_response_url": null,
+            "alternate_url": "https://hh.ru/vacancy/79980407",
+            "relations": [],
+            "employer": {
+                "id": "2652109",
+                "name": "ПТК Транском",
+                "url": "https://api.hh.ru/employers/2652109",
+                "alternate_url": "https://hh.ru/employer/2652109",
+                "logo_urls": null,
+                "vacancies_url": "https://api.hh.ru/vacancies?employer_id=2652109",
+                "trusted": true
+            },
+            "snippet": {
+                "requirement": "Высшее или средне-специальное образование. Активность, коммуникабельность. Внимательность, грамотная речь. Хорошее знание WORD, EXCEL, умение применять формулы. Умение быстрого поиска...",
+                "responsibility": "Работа с таблицами Excel. - работа в 1С. - делопроизводство (прием и отправка почтовой корреспонденции, экспресс почты). - прием и распределение звонков. - "
+            },
+            "contacts": null,
+            "schedule": null,
+            "working_days": [],
+            "working_time_intervals": [],
+            "working_time_modes": [],
+            "accept_temporary": false,
+            "professional_roles": [
+                {
+                    "id": "88",
+                    "name": "Офис-менеджер"
+                }
+            ],
+            "accept_incomplete_resumes": false,
+            "experience": {
+                "id": "between1And3",
+                "name": "От 1 года до 3 лет"
+            },
+            "employment": {
+                "id": "full",
+                "name": "Полная занятость"
+            }
+        },
+        {
+            "id": "78928991",
+            "premium": false,
+            "name": "Менеджер по продажам",
+            "department": null,
+            "has_test": false,
+            "response_letter_required": false,
+            "area": {
+                "id": "1",
+                "name": "Москва",
+                "url": "https://api.hh.ru/areas/1"
+            },
+            "salary": {
+                "from": 100000,
+                "to": 250000,
+                "currency": "RUR",
+                "gross": false
+            },
+            "type": {
+                "id": "open",
+                "name": "Открытая"
+            },
+            "address": null,
+            "response_url": null,
+            "sort_point_distance": null,
+            "published_at": "2023-04-05T09:53:52+0300",
+            "created_at": "2023-04-05T09:53:52+0300",
+            "archived": false,
+            "apply_alternate_url": "https://hh.ru/applicant/vacancy_response?vacancyId=78928991",
+            "insider_interview": null,
+            "url": "https://api.hh.ru/vacancies/78928991?host=hh.ru",
+            "adv_response_url": null,
+            "alternate_url": "https://hh.ru/vacancy/78928991",
+            "relations": [],
+            "employer": {
+                "id": "1551312",
+                "name": "UP business",
+                "url": "https://api.hh.ru/employers/1551312",
+                "alternate_url": "https://hh.ru/employer/1551312",
+                "logo_urls": {
+                    "90": "https://hhcdn.ru/employer-logo/2981572.jpeg",
+                    "240": "https://hhcdn.ru/employer-logo/2981573.jpeg",
+                    "original": "https://hhcdn.ru/employer-logo-original/635105.jpg"
+                },
+                "vacancies_url": "https://api.hh.ru/vacancies?employer_id=1551312",
+                "trusted": true
+            },
+            "snippet": {
+                "requirement": "Успешный опыт работы в сфере В2В-продаж от 3 лет. Опыт продаж медицинского оборудования и/или расходных материалов. ",
+                "responsibility": "Работа только с готовой клиентской базой — вам не нужно самостоятельно искать клиентов по непонятным базам или в интернете. "
+            },
+            "contacts": null,
+            "schedule": null,
+            "working_days": [],
+            "working_time_intervals": [],
+            "working_time_modes": [],
+            "accept_temporary": false,
+            "professional_roles": [
+                {
+                    "id": "70",
+                    "name": "Менеджер по продажам, менеджер по работе с клиентами"
+                }
+            ],
+            "accept_incomplete_resumes": false,
+            "experience": {
+                "id": "between3And6",
+                "name": "От 3 до 6 лет"
+            },
+            "employment": {
+                "id": "full",
+                "name": "Полная занятость"
+            }
+        },
+        {
+            "id": "78031419",
+            "premium": false,
+            "name": "Менеджер",
+            "department": null,
+            "has_test": false,
+            "response_letter_required": false,
+            "area": {
+                "id": "1",
+                "name": "Москва",
+                "url": "https://api.hh.ru/areas/1"
+            },
+            "salary": {
+                "from": 100000,
+                "to": 500000,
+                "currency": "RUR",
+                "gross": true
+            },
+            "type": {
+                "id": "open",
+                "name": "Открытая"
+            },
+            "address": {
+                "city": "Москва",
+                "street": "5-й Монетчиковский переулок",
+                "building": "3с1",
+                "lat": 55.732362,
+                "lng": 37.633571,
+                "description": null,
+                "raw": "Москва, 5-й Монетчиковский переулок, 3с1",
+                "metro": null,
+                "metro_stations": [],
+                "id": "7528999"
+            },
+            "response_url": null,
+            "sort_point_distance": null,
+            "published_at": "2023-04-13T13:11:34+0300",
+            "created_at": "2023-04-13T13:11:34+0300",
+            "archived": false,
+            "apply_alternate_url": "https://hh.ru/applicant/vacancy_response?vacancyId=78031419",
+            "insider_interview": null,
+            "url": "https://api.hh.ru/vacancies/78031419?host=hh.ru",
+            "adv_response_url": null,
+            "alternate_url": "https://hh.ru/vacancy/78031419",
+            "relations": [],
+            "employer": {
+                "id": "731261",
+                "name": "Fortex Group",
+                "url": "https://api.hh.ru/employers/731261",
+                "alternate_url": "https://hh.ru/employer/731261",
+                "logo_urls": {
+                    "240": "https://hhcdn.ru/employer-logo/3452326.png",
+                    "90": "https://hhcdn.ru/employer-logo/3452325.png",
+                    "original": "https://hhcdn.ru/employer-logo-original/752841.png"
+                },
+                "vacancies_url": "https://api.hh.ru/vacancies?employer_id=731261",
+                "trusted": true
+            },
+            "snippet": {
+                "requirement": null,
+                "responsibility": "Основной задачей сотрудника, является ведение клиента от заявки в офис до подписания сделки. Исключительно входящие клиенты, компании или ЛПР, кому..."
+            },
+            "contacts": null,
+            "schedule": null,
+            "working_days": [],
+            "working_time_intervals": [],
+            "working_time_modes": [],
+            "accept_temporary": false,
+            "professional_roles": [
+                {
+                    "id": "70",
+                    "name": "Менеджер по продажам, менеджер по работе с клиентами"
+                }
+            ],
+            "accept_incomplete_resumes": false,
+            "experience": {
+                "id": "noExperience",
+                "name": "Нет опыта"
+            },
+            "employment": {
+                "id": "full",
+                "name": "Полная занятость"
+            }
+        },
+        {
+            "id": "78858257",
+            "premium": false,
+            "name": "Помощник менеджера в офис",
+            "department": null,
+            "has_test": false,
+            "response_letter_required": false,
+            "area": {
+                "id": "1",
+                "name": "Москва",
+                "url": "https://api.hh.ru/areas/1"
+            },
+            "salary": {
+                "from": 40000,
+                "to": 50000,
+                "currency": "RUR",
+                "gross": false
+            },
+            "type": {
+                "id": "open",
+                "name": "Открытая"
+            },
+            "address": {
+                "city": "Москва",
+                "street": "Люблинско-Дмитровская линия",
+                "building": "метро Кожуховская",
+                "lat": 55.706259,
+                "lng": 37.68544,
+                "description": null,
+                "raw": "Москва, Люблинско-Дмитровская линия, метро Кожуховская",
+                "metro": {
+                    "station_name": "Кожуховская",
+                    "line_name": "Люблинско-Дмитровская",
+                    "station_id": "10.52",
+                    "line_id": "10",
+                    "lat": 55.706156,
+                    "lng": 37.68544
+                },
+                "metro_stations": [
+                    {
+                        "station_name": "Кожуховская",
+                        "line_name": "Люблинско-Дмитровская",
+                        "station_id": "10.52",
+                        "line_id": "10",
+                        "lat": 55.706156,
+                        "lng": 37.68544
+                    }
+                ],
+                "id": "4886646"
+            },
+            "response_url": null,
+            "sort_point_distance": null,
+            "published_at": "2023-04-03T19:27:29+0300",
+            "created_at": "2023-04-03T19:27:29+0300",
+            "archived": false,
+            "apply_alternate_url": "https://hh.ru/applicant/vacancy_response?vacancyId=78858257",
+            "insider_interview": null,
+            "url": "https://api.hh.ru/vacancies/78858257?host=hh.ru",
+            "adv_response_url": null,
+            "alternate_url": "https://hh.ru/vacancy/78858257",
+            "relations": [],
+            "employer": {
+                "id": "4937023",
+                "name": "Джатдоев Расул Шамгеевич",
+                "url": "https://api.hh.ru/employers/4937023",
+                "alternate_url": "https://hh.ru/employer/4937023",
+                "logo_urls": null,
+                "vacancies_url": "https://api.hh.ru/vacancies?employer_id=4937023",
+                "trusted": true
+            },
+            "snippet": {
+                "requirement": "того, кто может сосредоточено и усидчиво выполнять поставленную задачу, не теряя при этом внимательность. - того, кто умеет соблюдать установленные в...",
+                "responsibility": "Подтверждать заказы в онлайн режиме (без звонков клиенту), передавать на сборку на склад. - ответственного сотрудника, который вовремя приходит на работу."
+            },
+            "contacts": null,
+            "schedule": null,
+            "working_days": [],
+            "working_time_intervals": [],
+            "working_time_modes": [],
+            "accept_temporary": false,
+            "professional_roles": [
+                {
+                    "id": "54",
+                    "name": "Координатор отдела продаж"
+                }
+            ],
+            "accept_incomplete_resumes": false,
+            "experience": {
+                "id": "noExperience",
+                "name": "Нет опыта"
+            },
+            "employment": {
+                "id": "full",
+                "name": "Полная занятость"
+            }
+        },
+        {
+            "id": "80012065",
+            "premium": false,
+            "name": "Офис-менеджер",
+            "department": null,
+            "has_test": false,
+            "response_letter_required": false,
+            "area": {
+                "id": "1364",
+                "name": "Стерлитамак",
+                "url": "https://api.hh.ru/areas/1364"
+            },
+            "salary": {
+                "from": 25000,
+                "to": 40000,
+                "currency": "RUR",
+                "gross": false
+            },
+            "type": {
+                "id": "open",
+                "name": "Открытая"
+            },
+            "address": null,
+            "response_url": null,
+            "sort_point_distance": null,
+            "published_at": "2023-05-02T19:26:09+0300",
+            "created_at": "2023-05-02T19:26:09+0300",
+            "archived": false,
+            "apply_alternate_url": "https://hh.ru/applicant/vacancy_response?vacancyId=80012065",
+            "insider_interview": null,
+            "url": "https://api.hh.ru/vacancies/80012065?host=hh.ru",
+            "adv_response_url": null,
+            "alternate_url": "https://hh.ru/vacancy/80012065",
+            "relations": [],
+            "employer": {
+                "id": "4953822",
+                "name": "Рекламно-производственный центр ТАКНАДО",
+                "url": "https://api.hh.ru/employers/4953822",
+                "alternate_url": "https://hh.ru/employer/4953822",
+                "logo_urls": {
+                    "90": "https://hhcdn.ru/employer-logo/5994213.png",
+                    "240": "https://hhcdn.ru/employer-logo/5994214.png",
+                    "original": "https://hhcdn.ru/employer-logo-original/1093398.png"
+                },
+                "vacancies_url": "https://api.hh.ru/vacancies?employer_id=4953822",
+                "trusted": true
+            },
+            "snippet": {
+                "requirement": "Базовые знания ПК. Грамотная устная и письменная речь.",
+                "responsibility": "Сопровождение клиента на всех циклах продаж (от первичного общения до отгрузки готовой продукции, работа с входящим потоком клиентов). "
+            },
+            "contacts": null,
+            "schedule": null,
+            "working_days": [],
+            "working_time_intervals": [],
+            "working_time_modes": [],
+            "accept_temporary": false,
+            "professional_roles": [
+                {
+                    "id": "88",
+                    "name": "Офис-менеджер"
+                }
+            ],
+            "accept_incomplete_resumes": false,
+            "experience": {
+                "id": "noExperience",
+                "name": "Нет опыта"
+            },
+            "employment": {
+                "id": "full",
+                "name": "Полная занятость"
+            }
+        },
+        {
+            "id": "79269828",
+            "premium": false,
+            "name": "Менеджер по работе с ключевыми клиентами",
+            "department": null,
+            "has_test": false,
+            "response_letter_required": false,
+            "area": {
+                "id": "1",
+                "name": "Москва",
+                "url": "https://api.hh.ru/areas/1"
+            },
+            "salary": {
+                "from": 90000,
+                "to": null,
+                "currency": "RUR",
+                "gross": false
+            },
+            "type": {
+                "id": "open",
+                "name": "Открытая"
+            },
+            "address": null,
+            "response_url": null,
+            "sort_point_distance": null,
+            "published_at": "2023-04-13T16:25:47+0300",
+            "created_at": "2023-04-13T16:25:47+0300",
+            "archived": false,
+            "apply_alternate_url": "https://hh.ru/applicant/vacancy_response?vacancyId=79269828",
+            "insider_interview": null,
+            "url": "https://api.hh.ru/vacancies/79269828?host=hh.ru",
+            "adv_response_url": null,
+            "alternate_url": "https://hh.ru/vacancy/79269828",
+            "relations": [],
+            "employer": {
+                "id": "1551312",
+                "name": "UP business",
+                "url": "https://api.hh.ru/employers/1551312",
+                "alternate_url": "https://hh.ru/employer/1551312",
+                "logo_urls": {
+                    "90": "https://hhcdn.ru/employer-logo/2981572.jpeg",
+                    "240": "https://hhcdn.ru/employer-logo/2981573.jpeg",
+                    "original": "https://hhcdn.ru/employer-logo-original/635105.jpg"
+                },
+                "vacancies_url": "https://api.hh.ru/vacancies?employer_id=1551312",
+                "trusted": true
+            },
+            "snippet": {
+                "requirement": "Опыт работы на аналогичной позиции от 2-х лет. Актуальный опыт продаж в сфере B2B-услуг (преимуществом будет...",
+                "responsibility": "Работа с существующими клиентами и запросами, обработка лидов, выполнение поручений руководителя. Выполнение плана продаж. Активный поиск новых клиентов по отработанной..."
+            },
+            "contacts": null,
+            "schedule": null,
+            "working_days": [],
+            "working_time_intervals": [],
+            "working_time_modes": [],
+            "accept_temporary": false,
+            "professional_roles": [
+                {
+                    "id": "70",
+                    "name": "Менеджер по продажам, менеджер по работе с клиентами"
+                }
+            ],
+            "accept_incomplete_resumes": false,
+            "experience": {
+                "id": "between3And6",
+                "name": "От 3 до 6 лет"
+            },
+            "employment": {
+                "id": "full",
+                "name": "Полная занятость"
+            }
+        },
+        {
+            "id": "79974985",
+            "premium": false,
+            "name": "Менеджер-администратор",
+            "department": null,
+            "has_test": false,
+            "response_letter_required": false,
+            "area": {
+                "id": "35",
+                "name": "Иркутск",
+                "url": "https://api.hh.ru/areas/35"
+            },
+            "salary": {
+                "from": 50000,
+                "to": null,
+                "currency": "RUR",
+                "gross": false
+            },
+            "type": {
+                "id": "open",
+                "name": "Открытая"
+            },
+            "address": {
+                "city": "Иркутск",
+                "street": "улица Николая Гаврилова",
+                "building": "4",
+                "lat": 52.288591,
+                "lng": 104.271129,
+                "description": null,
+                "raw": "Иркутск, улица Николая Гаврилова, 4",
+                "metro": null,
+                "metro_stations": [],
+                "id": "13229045"
+            },
+            "response_url": null,
+            "sort_point_distance": null,
+            "published_at": "2023-05-02T10:45:41+0300",
+            "created_at": "2023-05-02T10:45:41+0300",
+            "archived": false,
+            "apply_alternate_url": "https://hh.ru/applicant/vacancy_response?vacancyId=79974985",
+            "insider_interview": null,
+            "url": "https://api.hh.ru/vacancies/79974985?host=hh.ru",
+            "adv_response_url": null,
+            "alternate_url": "https://hh.ru/vacancy/79974985",
+            "relations": [],
+            "employer": {
+                "id": "4770498",
+                "name": "LATZA",
+                "url": "https://api.hh.ru/employers/4770498",
+                "alternate_url": "https://hh.ru/employer/4770498",
+                "logo_urls": {
+                    "240": "https://hhcdn.ru/employer-logo/3464930.png",
+                    "90": "https://hhcdn.ru/employer-logo/3464929.png",
+                    "original": "https://hhcdn.ru/employer-logo-original/755993.png"
+                },
+                "vacancies_url": "https://api.hh.ru/vacancies?employer_id=4770498",
+                "trusted": true
+            },
+            "snippet": {
+                "requirement": "опыт работы в сфере услуг от 1 года. - клиентоориентированность. - навык работы в продажах.",
+                "responsibility": "консультирование клиентов по абонементам и программам студии. - работа по имеющейся базе клиентов. - участие в мероприятиях студии. - привлечение новых клиентов. - "
+            },
+            "contacts": null,
+            "schedule": null,
+            "working_days": [],
+            "working_time_intervals": [],
+            "working_time_modes": [],
+            "accept_temporary": false,
+            "professional_roles": [
+                {
+                    "id": "8",
+                    "name": "Администратор"
+                }
+            ],
+            "accept_incomplete_resumes": true,
+            "experience": {
+                "id": "between1And3",
+                "name": "От 1 года до 3 лет"
+            },
+            "employment": {
+                "id": "full",
+                "name": "Полная занятость"
+            }
+        },
+        {
+            "id": "78898194",
+            "premium": false,
+            "name": "Офис-менеджер",
+            "department": null,
+            "has_test": false,
+            "response_letter_required": false,
+            "area": {
+                "id": "1",
+                "name": "Москва",
+                "url": "https://api.hh.ru/areas/1"
+            },
+            "salary": {
+                "from": 90000,
+                "to": null,
+                "currency": "RUR",
+                "gross": false
+            },
+            "type": {
+                "id": "open",
+                "name": "Открытая"
+            },
+            "address": {
+                "city": "Москва",
+                "street": "Самокатная улица",
+                "building": "4с6",
+                "lat": 55.755601,
+                "lng": 37.678505,
+                "description": null,
+                "raw": "Москва, Самокатная улица, 4с6",
+                "metro": null,
+                "metro_stations": [],
+                "id": "6630636"
+            },
+            "response_url": null,
+            "sort_point_distance": null,
+            "published_at": "2023-04-04T14:27:29+0300",
+            "created_at": "2023-04-04T14:27:29+0300",
+            "archived": false,
+            "apply_alternate_url": "https://hh.ru/applicant/vacancy_response?vacancyId=78898194",
+            "insider_interview": null,
+            "url": "https://api.hh.ru/vacancies/78898194?host=hh.ru",
+            "adv_response_url": null,
+            "alternate_url": "https://hh.ru/vacancy/78898194",
+            "relations": [],
+            "employer": {
+                "id": "4411807",
+                "name": "Зелинский и Розен парфюмерия",
+                "url": "https://api.hh.ru/employers/4411807",
+                "alternate_url": "https://hh.ru/employer/4411807",
+                "logo_urls": {
+                    "90": "https://hhcdn.ru/employer-logo/3392285.jpeg",
+                    "240": "https://hhcdn.ru/employer-logo/3392286.jpeg",
+                    "original": "https://hhcdn.ru/employer-logo-original/737827.jpg"
+                },
+                "vacancies_url": "https://api.hh.ru/vacancies?employer_id=4411807",
+                "trusted": true
+            },
+            "snippet": {
+                "requirement": "Опыт организации деловых поездок и командировок как Российских, так и за рубежом. Опыт работы с VIP клиентами приветствуется. ",
+                "responsibility": "Организация поездок для сотрудников компании личного и делового характера по всем направлениям, обработка запросов любой сложности. Координирование заявок клиента в..."
+            },
+            "contacts": null,
+            "schedule": null,
+            "working_days": [],
+            "working_time_intervals": [],
+            "working_time_modes": [],
+            "accept_temporary": false,
+            "professional_roles": [
+                {
+                    "id": "72",
+                    "name": "Менеджер по туризму"
+                }
+            ],
+            "accept_incomplete_resumes": false,
+            "experience": {
+                "id": "between3And6",
+                "name": "От 3 до 6 лет"
+            },
+            "employment": {
+                "id": "full",
+                "name": "Полная занятость"
+            }
+        },
+        {
+            "id": "78933987",
+            "premium": false,
+            "name": "Менеджер по продажам",
+            "department": null,
+            "has_test": false,
+            "response_letter_required": false,
+            "area": {
+                "id": "66",
+                "name": "Нижний Новгород",
+                "url": "https://api.hh.ru/areas/66"
+            },
+            "salary": {
+                "from": 100000,
+                "to": null,
+                "currency": "RUR",
+                "gross": true
+            },
+            "type": {
+                "id": "open",
+                "name": "Открытая"
+            },
+            "address": {
+                "city": null,
+                "street": null,
+                "building": null,
+                "lat": null,
+                "lng": null,
+                "description": null,
+                "raw": "Нижний Новгород, улица Марата, 15",
+                "metro": null,
+                "metro_stations": [],
+                "id": "192400"
+            },
+            "response_url": null,
+            "sort_point_distance": null,
+            "published_at": "2023-04-19T14:32:57+0300",
+            "created_at": "2023-04-19T14:32:57+0300",
+            "archived": false,
+            "apply_alternate_url": "https://hh.ru/applicant/vacancy_response?vacancyId=78933987",
+            "insider_interview": null,
+            "url": "https://api.hh.ru/vacancies/78933987?host=hh.ru",
+            "adv_response_url": null,
+            "alternate_url": "https://hh.ru/vacancy/78933987",
+            "relations": [],
+            "employer": {
+                "id": "178786",
+                "name": "Инвент",
+                "url": "https://api.hh.ru/employers/178786",
+                "alternate_url": "https://hh.ru/employer/178786",
+                "logo_urls": {
+                    "original": "https://hhcdn.ru/employer-logo-original/891215.png",
+                    "90": "https://hhcdn.ru/employer-logo/4005547.png",
+                    "240": "https://hhcdn.ru/employer-logo/4005548.png"
+                },
+                "vacancies_url": "https://api.hh.ru/vacancies?employer_id=178786",
+                "trusted": true
+            },
+            "snippet": {
+                "requirement": "1. Опыт работы в продажах. 2. Образование высшее. 3. Знание английского языка. 4. Хорошее знание ПК и оргтехники. 5. ",
+                "responsibility": "1. Работа с клиентами. 2. Консультирование клиентов и презентация продуктов компании. 3. Проведение переговоров с первыми лицами компаний. 4. "
+            },
+            "contacts": null,
+            "schedule": null,
+            "working_days": [],
+            "working_time_intervals": [],
+            "working_time_modes": [],
+            "accept_temporary": false,
+            "professional_roles": [
+                {
+                    "id": "70",
+                    "name": "Менеджер по продажам, менеджер по работе с клиентами"
+                }
+            ],
+            "accept_incomplete_resumes": false,
+            "experience": {
+                "id": "between1And3",
+                "name": "От 1 года до 3 лет"
+            },
+            "employment": {
+                "id": "full",
+                "name": "Полная занятость"
+            }
+        },
+        {
+            "id": "80035780",
+            "premium": false,
+            "name": "Охранник (Менеджер АХО)",
+            "department": null,
+            "has_test": false,
+            "response_letter_required": false,
+            "area": {
+                "id": "1",
+                "name": "Москва",
+                "url": "https://api.hh.ru/areas/1"
+            },
+            "salary": {
+                "from": 60000,
+                "to": null,
+                "currency": "RUR",
+                "gross": false
+            },
+            "type": {
+                "id": "open",
+                "name": "Открытая"
+            },
+            "address": {
+                "city": "Москва",
+                "street": "Кутузовский проспект",
+                "building": "36с5",
+                "lat": 55.740254,
+                "lng": 37.528379,
+                "description": null,
+                "raw": "Москва, Кутузовский проспект, 36с5",
+                "metro": null,
+                "metro_stations": [],
+                "id": "12773022"
+            },
+            "response_url": null,
+            "sort_point_distance": null,
+            "published_at": "2023-05-03T10:53:24+0300",
+            "created_at": "2023-05-03T10:53:24+0300",
+            "archived": false,
+            "apply_alternate_url": "https://hh.ru/applicant/vacancy_response?vacancyId=80035780",
+            "insider_interview": null,
+            "url": "https://api.hh.ru/vacancies/80035780?host=hh.ru",
+            "adv_response_url": null,
+            "alternate_url": "https://hh.ru/vacancy/80035780",
+            "relations": [],
+            "employer": {
+                "id": "1058813",
+                "name": "Верона, школа моделей",
+                "url": "https://api.hh.ru/employers/1058813",
+                "alternate_url": "https://hh.ru/employer/1058813",
+                "logo_urls": {
+                    "original": "https://hhcdn.ru/employer-logo-original/85834.jpeg",
+                    "240": "https://hhcdn.ru/employer-logo/726849.jpeg",
+                    "90": "https://hhcdn.ru/employer-logo/726848.jpeg"
+                },
+                "vacancies_url": "https://api.hh.ru/vacancies?employer_id=1058813",
+                "trusted": true
+            },
+            "snippet": {
+                "requirement": "Опыт работы Завхозом / <highlighttext>менеджером</highlighttext> АХО от 1 года. Ответственный подход к делу, самостоятельность. Организаторские способности.",
+                "responsibility": "Контроль соблюдения чистоты и общего состояния помещений офиса. Ведение учета имущества компании. Выполнение поручений по ремонтно-хозяйственной части."
+            },
+            "contacts": null,
+            "schedule": null,
+            "working_days": [],
+            "working_time_intervals": [],
+            "working_time_modes": [],
+            "accept_temporary": false,
+            "professional_roles": [
+                {
+                    "id": "76",
+                    "name": "Менеджер/руководитель АХО"
+                }
+            ],
+            "accept_incomplete_resumes": false,
+            "experience": {
+                "id": "between1And3",
+                "name": "От 1 года до 3 лет"
+            },
+            "employment": {
+                "id": "full",
+                "name": "Полная занятость"
+            }
+        },
+        {
+            "id": "80049619",
+            "premium": false,
+            "name": "Офис-менеджер",
+            "department": null,
+            "has_test": false,
+            "response_letter_required": false,
+            "area": {
+                "id": "1",
+                "name": "Москва",
+                "url": "https://api.hh.ru/areas/1"
+            },
+            "salary": {
+                "from": 85000,
+                "to": 110000,
+                "currency": "RUR",
+                "gross": false
+            },
+            "type": {
+                "id": "open",
+                "name": "Открытая"
+            },
+            "address": {
+                "city": "Москва",
+                "street": "Кадашёвская набережная",
+                "building": "6/1/2",
+                "lat": 55.742706,
+                "lng": 37.617734,
+                "description": null,
+                "raw": "Москва, Кадашёвская набережная, 6/1/2",
+                "metro": null,
+                "metro_stations": [],
+                "id": "3531439"
+            },
+            "response_url": null,
+            "sort_point_distance": null,
+            "published_at": "2023-05-03T13:42:03+0300",
+            "created_at": "2023-05-03T13:42:03+0300",
+            "archived": false,
+            "apply_alternate_url": "https://hh.ru/applicant/vacancy_response?vacancyId=80049619",
+            "insider_interview": null,
+            "url": "https://api.hh.ru/vacancies/80049619?host=hh.ru",
+            "adv_response_url": null,
+            "alternate_url": "https://hh.ru/vacancy/80049619",
+            "relations": [],
+            "employer": {
+                "id": "62136",
+                "name": "Sminex-Интеко",
+                "url": "https://api.hh.ru/employers/62136",
+                "alternate_url": "https://hh.ru/employer/62136",
+                "logo_urls": {
+                    "240": "https://hhcdn.ru/employer-logo/5782573.png",
+                    "90": "https://hhcdn.ru/employer-logo/5782572.png",
+                    "original": "https://hhcdn.ru/employer-logo-original/1040454.png"
+                },
+                "vacancies_url": "https://api.hh.ru/vacancies?employer_id=62136",
+                "trusted": true
+            },
+            "snippet": {
+                "requirement": "Опыт работы на аналогичной должности от 1-го года. Знание: Инициативность. Организаторские навыки. Опыт работы в 1С.",
+                "responsibility": "Обеспечивать поставку расходных материалов, канцтоваров, мебели и продуктов питания в центральный офис и офисы продаж. Обеспечивать закупку ТМЦ, заведение расходов..."
+            },
+            "contacts": null,
+            "schedule": null,
+            "working_days": [],
+            "working_time_intervals": [],
+            "working_time_modes": [],
+            "accept_temporary": false,
+            "professional_roles": [
+                {
+                    "id": "88",
+                    "name": "Офис-менеджер"
+                }
+            ],
+            "accept_incomplete_resumes": false,
+            "experience": {
+                "id": "between1And3",
+                "name": "От 1 года до 3 лет"
+            },
+            "employment": {
+                "id": "full",
+                "name": "Полная занятость"
+            }
+        },
+        {
+            "id": "79822105",
+            "premium": false,
+            "name": "Секретарь (Офис-менеджер)",
+            "department": null,
+            "has_test": false,
+            "response_letter_required": false,
+            "area": {
+                "id": "1",
+                "name": "Москва",
+                "url": "https://api.hh.ru/areas/1"
+            },
+            "salary": {
+                "from": null,
+                "to": 100000,
+                "currency": "RUR",
+                "gross": false
+            },
+            "type": {
+                "id": "open",
+                "name": "Открытая"
+            },
+            "address": {
+                "city": "Москва",
+                "street": "улица Академика Варги",
+                "building": "8к1",
+                "lat": 55.630141,
+                "lng": 37.474453,
+                "description": null,
+                "raw": "Москва, улица Академика Варги, 8к1",
+                "metro": null,
+                "metro_stations": [],
+                "id": "13203389"
+            },
+            "response_url": null,
+            "sort_point_distance": null,
+            "published_at": "2023-04-26T11:42:32+0300",
+            "created_at": "2023-04-26T11:42:32+0300",
+            "archived": false,
+            "apply_alternate_url": "https://hh.ru/applicant/vacancy_response?vacancyId=79822105",
+            "insider_interview": null,
+            "url": "https://api.hh.ru/vacancies/79822105?host=hh.ru",
+            "adv_response_url": null,
+            "alternate_url": "https://hh.ru/vacancy/79822105",
+            "relations": [],
+            "employer": {
+                "id": "2796933",
+                "name": "НефтеСервис",
+                "url": "https://api.hh.ru/employers/2796933",
+                "alternate_url": "https://hh.ru/employer/2796933",
+                "logo_urls": {
+                    "90": "https://hhcdn.ru/employer-logo/2092122.png",
+                    "original": "https://hhcdn.ru/employer-logo-original/412512.png",
+                    "240": "https://hhcdn.ru/employer-logo/2092123.png"
+                },
+                "vacancies_url": "https://api.hh.ru/vacancies?employer_id=2796933",
+                "trusted": true
+            },
+            "snippet": {
+                "requirement": "Наличие опыта обязательно. Знание офисных программ, аккуратность. Умение работать в стрессовой ситуации.",
+                "responsibility": "Сбор, обработка и передача руководителю требуемой информации, контроль за исполнением распоряжений руководителя, переданных в ведение секретаря. Ведение протоколов совещаний. "
+            },
+            "contacts": null,
+            "schedule": null,
+            "working_days": [],
+            "working_time_intervals": [],
+            "working_time_modes": [],
+            "accept_temporary": false,
+            "professional_roles": [
+                {
+                    "id": "110",
+                    "name": "Секретарь, помощник руководителя, ассистент"
+                }
+            ],
+            "accept_incomplete_resumes": false,
+            "experience": {
+                "id": "between1And3",
+                "name": "От 1 года до 3 лет"
+            },
+            "employment": {
+                "id": "full",
+                "name": "Полная занятость"
+            }
+        },
+        {
+            "id": "79882015",
+            "premium": false,
+            "name": "Офис-менеджер",
+            "department": null,
+            "has_test": false,
+            "response_letter_required": false,
+            "area": {
+                "id": "1",
+                "name": "Москва",
+                "url": "https://api.hh.ru/areas/1"
+            },
+            "salary": {
+                "from": 150000,
+                "to": 150000,
+                "currency": "RUR",
+                "gross": true
+            },
+            "type": {
+                "id": "open",
+                "name": "Открытая"
+            },
+            "address": {
+                "city": "Москва",
+                "street": "Озерковская набережная",
+                "building": "14с1",
+                "lat": 55.741475,
+                "lng": 37.637308,
+                "description": null,
+                "raw": "Москва, Озерковская набережная, 14с1",
+                "metro": {
+                    "station_name": "Новокузнецкая",
+                    "line_name": "Замоскворецкая",
+                    "station_id": "2.89",
+                    "line_id": "2",
+                    "lat": 55.742391,
+                    "lng": 37.62928
+                },
+                "metro_stations": [
+                    {
+                        "station_name": "Новокузнецкая",
+                        "line_name": "Замоскворецкая",
+                        "station_id": "2.89",
+                        "line_id": "2",
+                        "lat": 55.742391,
+                        "lng": 37.62928
+                    },
+                    {
+                        "station_name": "Третьяковская",
+                        "line_name": "Калужско-Рижская",
+                        "station_id": "6.90",
+                        "line_id": "6",
+                        "lat": 55.74073,
+                        "lng": 37.625624
+                    },
+                    {
+                        "station_name": "Третьяковская",
+                        "line_name": "Калининская",
+                        "station_id": "8.91",
+                        "line_id": "8",
+                        "lat": 55.741125,
+                        "lng": 37.626142
+                    }
+                ],
+                "id": "6264803"
+            },
+            "response_url": null,
+            "sort_point_distance": null,
+            "published_at": "2023-04-27T14:33:19+0300",
+            "created_at": "2023-04-27T14:33:19+0300",
+            "archived": false,
+            "apply_alternate_url": "https://hh.ru/applicant/vacancy_response?vacancyId=79882015",
+            "insider_interview": null,
+            "url": "https://api.hh.ru/vacancies/79882015?host=hh.ru",
+            "adv_response_url": null,
+            "alternate_url": "https://hh.ru/vacancy/79882015",
+            "relations": [],
+            "employer": {
+                "id": "2131154",
+                "name": "Глонасс",
+                "url": "https://api.hh.ru/employers/2131154",
+                "alternate_url": "https://hh.ru/employer/2131154",
+                "logo_urls": {
+                    "original": "https://hhcdn.ru/employer-logo-original/368311.png",
+                    "90": "https://hhcdn.ru/employer-logo/1915502.png",
+                    "240": "https://hhcdn.ru/employer-logo/1915503.png"
+                },
+                "vacancies_url": "https://api.hh.ru/vacancies?employer_id=2131154",
+                "trusted": true
+            },
+            "snippet": {
+                "requirement": "Образование: высшее. Опыт работы в данной должности не менее 3 лет. Владение стандартным офисным набором (Word, Power Point, Excel, Outlook). ",
+                "responsibility": "Планирование, координация и ведение рабочего графика. Подготовка и организация встреч, переговоров, совещаний. Поиск, обработка и структурирование информации по поручению руководителя. "
+            },
+            "contacts": null,
+            "schedule": null,
+            "working_days": [],
+            "working_time_intervals": [],
+            "working_time_modes": [],
+            "accept_temporary": false,
+            "professional_roles": [
+                {
+                    "id": "88",
+                    "name": "Офис-менеджер"
+                }
+            ],
+            "accept_incomplete_resumes": true,
+            "experience": {
+                "id": "moreThan6",
+                "name": "Более 6 лет"
+            },
+            "employment": {
+                "id": "full",
+                "name": "Полная занятость"
+            }
+        },
+        {
+            "id": "79055529",
+            "premium": false,
+            "name": "Менеджер по работе с клиентами",
+            "department": null,
+            "has_test": false,
+            "response_letter_required": false,
+            "area": {
+                "id": "78",
+                "name": "Самара",
+                "url": "https://api.hh.ru/areas/78"
+            },
+            "salary": {
+                "from": 40000,
+                "to": 70000,
+                "currency": "RUR",
+                "gross": false
+            },
+            "type": {
+                "id": "open",
+                "name": "Открытая"
+            },
+            "address": {
+                "city": "Самара",
+                "street": "Лесная улица",
+                "building": "11А",
+                "lat": 53.210641,
+                "lng": 50.124609,
+                "description": null,
+                "raw": "Самара, Лесная улица, 11А",
+                "metro": {
+                    "station_name": "Алабинская",
+                    "line_name": "Первая",
+                    "station_id": "54.509",
+                    "line_id": "54",
+                    "lat": 53.209689,
+                    "lng": 50.134417
+                },
+                "metro_stations": [
+                    {
+                        "station_name": "Алабинская",
+                        "line_name": "Первая",
+                        "station_id": "54.509",
+                        "line_id": "54",
+                        "lat": 53.209689,
+                        "lng": 50.134417
+                    }
+                ],
+                "id": "628690"
+            },
+            "response_url": null,
+            "sort_point_distance": null,
+            "published_at": "2023-04-10T18:50:31+0300",
+            "created_at": "2023-04-10T18:50:31+0300",
+            "archived": false,
+            "apply_alternate_url": "https://hh.ru/applicant/vacancy_response?vacancyId=79055529",
+            "insider_interview": null,
+            "url": "https://api.hh.ru/vacancies/79055529?host=hh.ru",
+            "adv_response_url": null,
+            "alternate_url": "https://hh.ru/vacancy/79055529",
+            "relations": [],
+            "employer": {
+                "id": "2141473",
+                "name": "Открытые технологии",
+                "url": "https://api.hh.ru/employers/2141473",
+                "alternate_url": "https://hh.ru/employer/2141473",
+                "logo_urls": {
+                    "240": "https://hhcdn.ru/employer-logo/1845295.png",
+                    "90": "https://hhcdn.ru/employer-logo/1845294.png",
+                    "original": "https://hhcdn.ru/employer-logo-original/350757.png"
+                },
+                "vacancies_url": "https://api.hh.ru/vacancies?employer_id=2141473",
+                "trusted": true
+            },
+            "snippet": {
+                "requirement": "Навыки продаж. Высокий уровень обучаемости - вам необходимо будет быстро разобраться с базой готовых работ для того, чтобы ориентироваться в ней...",
+                "responsibility": "Продажа студенческих работ клиентам в офисе и через VK. Заведение заявок во внутренней CRM системе. Подготовка выполненных заказов к выдаче..."
+            },
+            "contacts": null,
+            "schedule": null,
+            "working_days": [],
+            "working_time_intervals": [],
+            "working_time_modes": [],
+            "accept_temporary": false,
+            "professional_roles": [
+                {
+                    "id": "70",
+                    "name": "Менеджер по продажам, менеджер по работе с клиентами"
+                }
+            ],
+            "accept_incomplete_resumes": false,
+            "experience": {
+                "id": "between1And3",
+                "name": "От 1 года до 3 лет"
+            },
+            "employment": {
+                "id": "full",
+                "name": "Полная занятость"
+            }
+        },
+        {
+            "id": "76995732",
+            "premium": false,
+            "name": "Менеджер по продажам (без поиска клиентов)",
+            "department": null,
+            "has_test": false,
+            "response_letter_required": false,
+            "area": {
+                "id": "212",
+                "name": "Тольятти",
+                "url": "https://api.hh.ru/areas/212"
+            },
+            "salary": {
+                "from": 40000,
+                "to": 60000,
+                "currency": "RUR",
+                "gross": true
+            },
+            "type": {
+                "id": "open",
+                "name": "Открытая"
+            },
+            "address": {
+                "city": "Тольятти",
+                "street": "улица 40 лет Победы",
+                "building": "65Б",
+                "lat": 53.518775,
+                "lng": 49.314679,
+                "description": null,
+                "raw": "Тольятти, улица 40 лет Победы, 65Б",
+                "metro": null,
+                "metro_stations": [],
+                "id": "5446723"
+            },
+            "response_url": null,
+            "sort_point_distance": null,
+            "published_at": "2023-05-03T10:31:02+0300",
+            "created_at": "2023-05-03T10:31:02+0300",
+            "archived": false,
+            "apply_alternate_url": "https://hh.ru/applicant/vacancy_response?vacancyId=76995732",
+            "insider_interview": null,
+            "url": "https://api.hh.ru/vacancies/76995732?host=hh.ru",
+            "adv_response_url": null,
+            "alternate_url": "https://hh.ru/vacancy/76995732",
+            "relations": [],
+            "employer": {
+                "id": "2800",
+                "name": "Группа Актион",
+                "url": "https://api.hh.ru/employers/2800",
+                "alternate_url": "https://hh.ru/employer/2800",
+                "logo_urls": {
+                    "240": "https://hhcdn.ru/employer-logo/4102404.png",
+                    "90": "https://hhcdn.ru/employer-logo/4102403.png",
+                    "original": "https://hhcdn.ru/employer-logo-original/915431.png"
+                },
+                "vacancies_url": "https://api.hh.ru/vacancies?employer_id=2800",
+                "trusted": true
+            },
+            "snippet": {
+                "requirement": "Нет опыта работы в продажах? не проблема – мы научим! Проводим тренинги личной эффективности.",
+                "responsibility": "Мы разрабатываем продукты для коммерческих и государственных учреждений: Выпускаем электронные и печатные журналы: Главбух, Упрощенка, Генеральный директор, Кадровое дело и..."
+            },
+            "contacts": null,
+            "schedule": null,
+            "working_days": [],
+            "working_time_intervals": [],
+            "working_time_modes": [],
+            "accept_temporary": false,
+            "professional_roles": [
+                {
+                    "id": "70",
+                    "name": "Менеджер по продажам, менеджер по работе с клиентами"
+                }
+            ],
+            "accept_incomplete_resumes": true,
+            "experience": {
+                "id": "noExperience",
+                "name": "Нет опыта"
+            },
+            "employment": {
+                "id": "full",
+                "name": "Полная занятость"
+            }
+        },
+        {
+            "id": "79880799",
+            "premium": false,
+            "name": "Менеджер по текущим клиентам (КазСнаб)",
+            "department": null,
+            "has_test": false,
+            "response_letter_required": false,
+            "area": {
+                "id": "88",
+                "name": "Казань",
+                "url": "https://api.hh.ru/areas/88"
+            },
+            "salary": {
+                "from": 100000,
+                "to": 150000,
+                "currency": "RUR",
+                "gross": false
+            },
+            "type": {
+                "id": "open",
+                "name": "Открытая"
+            },
+            "address": {
+                "city": "Казань",
+                "street": "улица Рахимова",
+                "building": "8к78",
+                "lat": 55.841058,
+                "lng": 49.032186,
+                "description": null,
+                "raw": "Казань, улица Рахимова, 8к78",
+                "metro": null,
+                "metro_stations": [],
+                "id": "3018818"
+            },
+            "response_url": null,
+            "sort_point_distance": null,
+            "published_at": "2023-04-27T14:19:44+0300",
+            "created_at": "2023-04-27T14:19:44+0300",
+            "archived": false,
+            "apply_alternate_url": "https://hh.ru/applicant/vacancy_response?vacancyId=79880799",
+            "insider_interview": null,
+            "url": "https://api.hh.ru/vacancies/79880799?host=hh.ru",
+            "adv_response_url": null,
+            "alternate_url": "https://hh.ru/vacancy/79880799",
+            "relations": [],
+            "employer": {
+                "id": "1060821",
+                "name": "Рост Развитие Решение",
+                "url": "https://api.hh.ru/employers/1060821",
+                "alternate_url": "https://hh.ru/employer/1060821",
+                "logo_urls": {
+                    "90": "https://hhcdn.ru/employer-logo/874868.jpeg",
+                    "240": "https://hhcdn.ru/employer-logo/874869.jpeg",
+                    "original": "https://hhcdn.ru/employer-logo-original/85446.jpg"
+                },
+                "vacancies_url": "https://api.hh.ru/vacancies?employer_id=1060821",
+                "trusted": true
+            },
+            "snippet": {
+                "requirement": "Успешный опыт в продажах. Знание 1С, ПК. Умение работать с большим объемом информации. Ответственность. Знание конъюнктуры строительного рынка будет...",
+                "responsibility": "Продажа (без холодного поиска) ТПА оптом и в розницу. Работа с текущими клиентами компании (входящие звонки, заявки, запросы с сайта). "
+            },
+            "contacts": null,
+            "schedule": null,
+            "working_days": [],
+            "working_time_intervals": [],
+            "working_time_modes": [],
+            "accept_temporary": false,
+            "professional_roles": [
+                {
+                    "id": "70",
+                    "name": "Менеджер по продажам, менеджер по работе с клиентами"
+                }
+            ],
+            "accept_incomplete_resumes": false,
+            "experience": {
+                "id": "between1And3",
+                "name": "От 1 года до 3 лет"
+            },
+            "employment": {
+                "id": "full",
+                "name": "Полная занятость"
+            }
+        },
+        {
+            "id": "79975779",
+            "premium": false,
+            "name": "Ассистент менеджера по работе с клиентами",
+            "department": null,
+            "has_test": false,
+            "response_letter_required": false,
+            "area": {
+                "id": "90",
+                "name": "Томск",
+                "url": "https://api.hh.ru/areas/90"
+            },
+            "salary": {
+                "from": 35000,
+                "to": 40000,
+                "currency": "RUR",
+                "gross": false
+            },
+            "type": {
+                "id": "open",
+                "name": "Открытая"
+            },
+            "address": {
+                "city": "Томск",
+                "street": "Иркутский тракт",
+                "building": "15",
+                "lat": 56.501526,
+                "lng": 85.005716,
+                "description": null,
+                "raw": "Томск, Иркутский тракт, 15",
+                "metro": null,
+                "metro_stations": [],
+                "id": "7638963"
+            },
+            "response_url": null,
+            "sort_point_distance": null,
+            "published_at": "2023-05-02T10:51:09+0300",
+            "created_at": "2023-05-02T10:51:09+0300",
+            "archived": false,
+            "apply_alternate_url": "https://hh.ru/applicant/vacancy_response?vacancyId=79975779",
+            "insider_interview": null,
+            "url": "https://api.hh.ru/vacancies/79975779?host=hh.ru",
+            "adv_response_url": null,
+            "alternate_url": "https://hh.ru/vacancy/79975779",
+            "relations": [],
+            "employer": {
+                "id": "6093",
+                "name": "ИНВИТРО",
+                "url": "https://api.hh.ru/employers/6093",
+                "alternate_url": "https://hh.ru/employer/6093",
+                "logo_urls": {
+                    "90": "https://hhcdn.ru/employer-logo/2157446.jpeg",
+                    "original": "https://hhcdn.ru/employer-logo-original/428844.jpg",
+                    "240": "https://hhcdn.ru/employer-logo/2157447.jpeg"
+                },
+                "vacancies_url": "https://api.hh.ru/vacancies?employer_id=6093",
+                "trusted": true
+            },
+            "snippet": {
+                "requirement": "Образование среднее специальное, высшее. Опыт работы от 1 года. Уверенный пользователь ПК. Внимательность, обучаемость, умение работать в режиме многозадачности, ответственность.",
+                "responsibility": "...заявок клиентов (оценка содержания заявки, корректировка, отслеживание заказа). Выполнение поручений <highlighttext>менеджера</highlighttext> и руководителя. Работа с финансовыми показателями, табличными данными. "
+            },
+            "contacts": null,
+            "schedule": null,
+            "working_days": [],
+            "working_time_intervals": [],
+            "working_time_modes": [],
+            "accept_temporary": false,
+            "professional_roles": [
+                {
+                    "id": "40",
+                    "name": "Другое"
+                }
+            ],
+            "accept_incomplete_resumes": true,
+            "experience": {
+                "id": "between1And3",
+                "name": "От 1 года до 3 лет"
+            },
+            "employment": {
+                "id": "full",
+                "name": "Полная занятость"
+            }
+        },
+        {
+            "id": "79408762",
+            "premium": false,
+            "name": "Офис-менеджер (м. Крестовский остров)",
+            "department": null,
+            "has_test": false,
+            "response_letter_required": false,
+            "area": {
+                "id": "2",
+                "name": "Санкт-Петербург",
+                "url": "https://api.hh.ru/areas/2"
+            },
+            "salary": {
+                "from": 46000,
+                "to": 50000,
+                "currency": "RUR",
+                "gross": false
+            },
+            "type": {
+                "id": "open",
+                "name": "Открытая"
+            },
+            "address": {
+                "city": "Санкт-Петербург",
+                "street": "набережная Мартынова",
+                "building": "6",
+                "lat": 59.974032,
+                "lng": 30.262607,
+                "description": null,
+                "raw": "Санкт-Петербург, набережная Мартынова, 6",
+                "metro": {
+                    "station_name": "Крестовский остров",
+                    "line_name": "Фрунзенско-Приморская",
+                    "station_id": "18.247",
+                    "line_id": "18",
+                    "lat": 59.971821,
+                    "lng": 30.259436
+                },
+                "metro_stations": [
+                    {
+                        "station_name": "Крестовский остров",
+                        "line_name": "Фрунзенско-Приморская",
+                        "station_id": "18.247",
+                        "line_id": "18",
+                        "lat": 59.971821,
+                        "lng": 30.259436
+                    }
+                ],
+                "id": "803099"
+            },
+            "response_url": null,
+            "sort_point_distance": null,
+            "published_at": "2023-04-17T15:33:08+0300",
+            "created_at": "2023-04-17T15:33:08+0300",
+            "archived": false,
+            "apply_alternate_url": "https://hh.ru/applicant/vacancy_response?vacancyId=79408762",
+            "insider_interview": null,
+            "url": "https://api.hh.ru/vacancies/79408762?host=hh.ru",
+            "adv_response_url": null,
+            "alternate_url": "https://hh.ru/vacancy/79408762",
+            "relations": [],
+            "employer": {
+                "id": "942527",
+                "name": "Компания Ладога",
+                "url": "https://api.hh.ru/employers/942527",
+                "alternate_url": "https://hh.ru/employer/942527",
+                "logo_urls": {
+                    "90": "https://hhcdn.ru/employer-logo/2747287.png",
+                    "240": "https://hhcdn.ru/employer-logo/2747288.png",
+                    "original": "https://hhcdn.ru/employer-logo-original/576504.png"
+                },
+                "vacancies_url": "https://api.hh.ru/vacancies?employer_id=942527",
+                "trusted": true
+            },
+            "snippet": {
+                "requirement": null,
+                "responsibility": "Жизнеобеспечение офиса, снабжение сотрудников всем необходимым для их работы, контроль расходов на офисные нужды. Встреча посетителей офиса, организация совещаний. "
+            },
+            "contacts": null,
+            "schedule": null,
+            "working_days": [],
+            "working_time_intervals": [],
+            "working_time_modes": [],
+            "accept_temporary": false,
+            "professional_roles": [
+                {
+                    "id": "88",
+                    "name": "Офис-менеджер"
+                }
+            ],
+            "accept_incomplete_resumes": false,
+            "experience": {
+                "id": "between1And3",
+                "name": "От 1 года до 3 лет"
+            },
+            "employment": {
+                "id": "full",
+                "name": "Полная занятость"
+            }
+        },
+        {
+            "id": "79845752",
+            "premium": false,
+            "name": "Менеджер по продажам",
+            "department": null,
+            "has_test": false,
+            "response_letter_required": false,
+            "area": {
+                "id": "1",
+                "name": "Москва",
+                "url": "https://api.hh.ru/areas/1"
+            },
+            "salary": {
+                "from": 40000,
+                "to": null,
+                "currency": "RUR",
+                "gross": false
+            },
+            "type": {
+                "id": "open",
+                "name": "Открытая"
+            },
+            "address": null,
+            "response_url": null,
+            "sort_point_distance": null,
+            "published_at": "2023-04-26T17:27:10+0300",
+            "created_at": "2023-04-26T17:27:10+0300",
+            "archived": false,
+            "apply_alternate_url": "https://hh.ru/applicant/vacancy_response?vacancyId=79845752",
+            "insider_interview": null,
+            "url": "https://api.hh.ru/vacancies/79845752?host=hh.ru",
+            "adv_response_url": null,
+            "alternate_url": "https://hh.ru/vacancy/79845752",
+            "relations": [],
+            "employer": {
+                "id": "1361731",
+                "name": "Яковишин Артем Вячеславович",
+                "url": "https://api.hh.ru/employers/1361731",
+                "alternate_url": "https://hh.ru/employer/1361731",
+                "logo_urls": {
+                    "original": "https://hhcdn.ru/employer-logo-original/871582.jpeg",
+                    "90": "https://hhcdn.ru/employer-logo/3927203.jpeg",
+                    "240": "https://hhcdn.ru/employer-logo/3927204.jpeg"
+                },
+                "vacancies_url": "https://api.hh.ru/vacancies?employer_id=1361731",
+                "trusted": true
+            },
+            "snippet": {
+                "requirement": "Обучаемость — мы научим тебя работе в CRM, этот навык прокачает в тебе специалиста. CRM сильно упростит ежедневную рутину.  ",
+                "responsibility": "Исходящими звонками по отобранной базе — ты не будешь тратить время на поиск самостоятельно.  Взаимодействие по телефону и письменно с заказчиками..."
+            },
+            "contacts": null,
+            "schedule": null,
+            "working_days": [],
+            "working_time_intervals": [],
+            "working_time_modes": [],
+            "accept_temporary": false,
+            "professional_roles": [
+                {
+                    "id": "70",
+                    "name": "Менеджер по продажам, менеджер по работе с клиентами"
+                }
+            ],
+            "accept_incomplete_resumes": false,
+            "experience": {
+                "id": "between1And3",
+                "name": "От 1 года до 3 лет"
+            },
+            "employment": {
+                "id": "full",
+                "name": "Полная занятость"
+            }
+        },
+        {
+            "id": "79986420",
+            "premium": false,
+            "name": "Офис-менеджер",
+            "department": null,
+            "has_test": false,
+            "response_letter_required": false,
+            "area": {
+                "id": "55",
+                "name": "Курган",
+                "url": "https://api.hh.ru/areas/55"
+            },
+            "salary": {
+                "from": 40000,
+                "to": null,
+                "currency": "RUR",
+                "gross": false
+            },
+            "type": {
+                "id": "open",
+                "name": "Открытая"
+            },
+            "address": {
+                "city": "Курган",
+                "street": "Омская улица",
+                "building": "157/1",
+                "lat": 55.468984,
+                "lng": 65.364708,
+                "description": null,
+                "raw": "Курган, Омская улица, 157/1",
+                "metro": null,
+                "metro_stations": [],
+                "id": "13155822"
+            },
+            "response_url": null,
+            "sort_point_distance": null,
+            "published_at": "2023-05-02T12:45:44+0300",
+            "created_at": "2023-05-02T12:45:44+0300",
+            "archived": false,
+            "apply_alternate_url": "https://hh.ru/applicant/vacancy_response?vacancyId=79986420",
+            "insider_interview": null,
+            "url": "https://api.hh.ru/vacancies/79986420?host=hh.ru",
+            "adv_response_url": null,
+            "alternate_url": "https://hh.ru/vacancy/79986420",
+            "relations": [],
+            "employer": {
+                "id": "9776339",
+                "name": "АльянсЛес",
+                "url": "https://api.hh.ru/employers/9776339",
+                "alternate_url": "https://hh.ru/employer/9776339",
+                "logo_urls": {
+                    "90": "https://hhcdn.ru/employer-logo/5992729.png",
+                    "240": "https://hhcdn.ru/employer-logo/5992730.png",
+                    "original": "https://hhcdn.ru/employer-logo-original/1093027.png"
+                },
+                "vacancies_url": "https://api.hh.ru/vacancies?employer_id=9776339",
+                "trusted": true
+            },
+            "snippet": {
+                "requirement": "Опрятный вид. Грамотная речь.",
+                "responsibility": "Работа с клиентами в офисе. Работа с клиентской базой. Обработка онлайн-заявок(WhatsApp, telegram, vk, avito, mail). Ведение CRM. "
+            },
+            "contacts": null,
+            "schedule": null,
+            "working_days": [],
+            "working_time_intervals": [],
+            "working_time_modes": [],
+            "accept_temporary": false,
+            "professional_roles": [
+                {
+                    "id": "88",
+                    "name": "Офис-менеджер"
+                }
+            ],
+            "accept_incomplete_resumes": false,
+            "experience": {
+                "id": "between1And3",
+                "name": "От 1 года до 3 лет"
+            },
+            "employment": {
+                "id": "full",
+                "name": "Полная занятость"
+            }
+        },
+        {
+            "id": "80045264",
+            "premium": false,
+            "name": "Менеджер объекта",
+            "department": null,
+            "has_test": false,
+            "response_letter_required": false,
+            "area": {
+                "id": "11",
+                "name": "Барнаул",
+                "url": "https://api.hh.ru/areas/11"
+            },
+            "salary": {
+                "from": 120000,
+                "to": null,
+                "currency": "RUR",
+                "gross": false
+            },
+            "type": {
+                "id": "open",
+                "name": "Открытая"
+            },
+            "address": null,
+            "response_url": null,
+            "sort_point_distance": null,
+            "published_at": "2023-05-03T12:47:41+0300",
+            "created_at": "2023-05-03T12:47:41+0300",
+            "archived": false,
+            "apply_alternate_url": "https://hh.ru/applicant/vacancy_response?vacancyId=80045264",
+            "insider_interview": null,
+            "url": "https://api.hh.ru/vacancies/80045264?host=hh.ru",
+            "adv_response_url": null,
+            "alternate_url": "https://hh.ru/vacancy/80045264",
+            "relations": [],
+            "employer": {
+                "id": "2060746",
+                "name": "ПрофСервис",
+                "url": "https://api.hh.ru/employers/2060746",
+                "alternate_url": "https://hh.ru/employer/2060746",
+                "logo_urls": {
+                    "240": "https://hhcdn.ru/employer-logo/2423006.jpeg",
+                    "90": "https://hhcdn.ru/employer-logo/2423005.jpeg",
+                    "original": "https://hhcdn.ru/employer-logo-original/495313.jpg"
+                },
+                "vacancies_url": "https://api.hh.ru/vacancies?employer_id=2060746",
+                "trusted": true
+            },
+            "snippet": {
+                "requirement": "Опыт работы руководителем (подразделений). Готовность работать на результат.",
+                "responsibility": "Организация и контроль работы группы сотрудников на объекте. Обучение стандартам работы. Ротация персонала. Обеспечение выполнения целевых показателей. Предоставление отчетности в..."
+            },
+            "contacts": null,
+            "schedule": null,
+            "working_days": [],
+            "working_time_intervals": [],
+            "working_time_modes": [],
+            "accept_temporary": false,
+            "professional_roles": [
+                {
+                    "id": "76",
+                    "name": "Менеджер/руководитель АХО"
+                }
+            ],
+            "accept_incomplete_resumes": false,
+            "experience": {
+                "id": "between3And6",
+                "name": "От 3 до 6 лет"
+            },
+            "employment": {
+                "id": "full",
+                "name": "Полная занятость"
+            }
+        },
+        {
+            "id": "79710015",
+            "premium": false,
+            "name": "Менеджер по ведению переговоров",
+            "department": null,
+            "has_test": false,
+            "response_letter_required": false,
+            "area": {
+                "id": "88",
+                "name": "Казань",
+                "url": "https://api.hh.ru/areas/88"
+            },
+            "salary": {
+                "from": 57000,
+                "to": 120000,
+                "currency": "RUR",
+                "gross": false
+            },
+            "type": {
+                "id": "open",
+                "name": "Открытая"
+            },
+            "address": {
+                "city": "Казань",
+                "street": "улица Гаврилова",
+                "building": "1",
+                "lat": 55.827646,
+                "lng": 49.15875,
+                "description": null,
+                "raw": "Казань, улица Гаврилова, 1",
+                "metro": null,
+                "metro_stations": [],
+                "id": "12556952"
+            },
+            "response_url": null,
+            "sort_point_distance": null,
+            "published_at": "2023-05-03T09:54:08+0300",
+            "created_at": "2023-05-03T09:54:08+0300",
+            "archived": false,
+            "apply_alternate_url": "https://hh.ru/applicant/vacancy_response?vacancyId=79710015",
+            "insider_interview": null,
+            "url": "https://api.hh.ru/vacancies/79710015?host=hh.ru",
+            "adv_response_url": null,
+            "alternate_url": "https://hh.ru/vacancy/79710015",
+            "relations": [],
+            "employer": {
+                "id": "3764961",
+                "name": "Международное Юридическое Бюро",
+                "url": "https://api.hh.ru/employers/3764961",
+                "alternate_url": "https://hh.ru/employer/3764961",
+                "logo_urls": {
+                    "original": "https://hhcdn.ru/employer-logo-original/1078716.jpg",
+                    "240": "https://hhcdn.ru/employer-logo/5935494.jpeg",
+                    "90": "https://hhcdn.ru/employer-logo/5935493.jpeg"
+                },
+                "vacancies_url": "https://api.hh.ru/vacancies?employer_id=3764961",
+                "trusted": true
+            },
+            "snippet": {
+                "requirement": "Опыт переговоров с Клиентом или продаж будет вашим преимуществом. Честность и ответственность. Желание и запрос на развитие.",
+                "responsibility": "Ведение Клиента от 1 звонка до встречи (теплые заявки). Работа с подготовленной базой. Взаимодействие со специалистами юридического отдела."
+            },
+            "contacts": null,
+            "schedule": null,
+            "working_days": [],
+            "working_time_intervals": [],
+            "working_time_modes": [],
+            "accept_temporary": false,
+            "professional_roles": [
+                {
+                    "id": "83",
+                    "name": "Оператор call-центра, специалист контактного центра"
+                }
+            ],
+            "accept_incomplete_resumes": false,
+            "experience": {
+                "id": "noExperience",
+                "name": "Нет опыта"
+            },
+            "employment": {
+                "id": "full",
+                "name": "Полная занятость"
+            }
+        }
+    ],
+    "found": 120873,
+    "pages": 40,
+    "per_page": 50,
+    "page": 0,
+    "clusters": null,
+    "arguments": null,
+    "alternate_url": "https://hh.ru/search/vacancy?area=113&enable_snippets=true&items_on_page=50&only_with_salary=true&order_by=publication_time&search_field=name&text=%D0%9C%D0%B5%D0%BD%D0%B5%D0%B4%D0%B6%D0%B5%D1%80"
+}

@@ -1,8 +1,8 @@
-from app.requests_classes.abstract_class import Servises
+
 import requests
 
 
-class HH_request(Servises):
+class HH_request():
     """Класс запроса вакансий на HH"""
     def __init__(self, text, area=113):
         self.text = text
