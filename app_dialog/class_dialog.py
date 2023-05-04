@@ -1,6 +1,7 @@
 from app.processing_json_file.class_json_processing import JsonProcessing
 from app.processing_data.processing_data import ProcessingData
 from app_dialog.user_exception import ErrorNotData
+from app.validation.validation_HH import Vacancies
 
 
 class Dialog:
@@ -32,7 +33,7 @@ class Dialog:
     def requests(word):
         try:
             JsonProcessing.create_file(word)
-            list_vacancies = ProcessingData.get_vacancies_list()
+            list_vacancies = ProcessingData.get_vacancies_list(Vacancies)
             if len(list_vacancies) == 0:
                 raise ErrorNotData
             else:

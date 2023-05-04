@@ -1,3 +1,4 @@
+from typing import Dict, List, Any
 
 import requests
 
@@ -8,17 +9,23 @@ class HH_request():
         self.text = text
         self.area = area
         self.url = 'https://api.hh.ru/vacancies'
-        self.params = {
-                'text': self.text,
-                'per_page': 50,
-                'area': self.area,
-                'only_with_salary': True
-            }
+        self.page = 1
 
-    def get_data(self) -> requests.Response:
+    def get_data(self) -> dict[str, list[Any]]:
         """Запрос"""
-        respon = requests.get(
-            url=self.url,
-            params=self.params,
-        )
-        return respon.json()
+        responce = {"items": []}
+        for page in range(1, 11):
+            respon = requests.get(
+                url=self.url,
+                params={
+                    'text': self.text,
+                    'per_page': 50,
+                    'page': self.page,
+                    'area': self.area,
+                    'only_with_salary': True
+                },
+            )
+            self.page += 1
+
+            responce.get('items').extend(respon.json().get("items"))
+        return responce

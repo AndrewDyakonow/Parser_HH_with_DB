@@ -5,6 +5,8 @@ from pydantic.class_validators import validator
 
 class Employer(BaseModel):
     name: str | None
+    alternate_url: str | None
+    id: int
 
 
 class Metro(BaseModel):
@@ -54,15 +56,21 @@ class Salary(BaseModel):
             return value
 
 
-class Vacancies(BaseModel):
+class Snippet(BaseModel):
+    requirement: str | None
+    responsibility: str | None
+
+
+class Vacanci(BaseModel):
     """Валидация данных"""
+    id: int
     name: str | None
     employer: Employer | None
     salary: Salary | None
     address: Address | None
     alternate_url: str | None
     published_at: str | None
-
+    snippet: Snippet | None
 
     @validator('address')
     @classmethod
