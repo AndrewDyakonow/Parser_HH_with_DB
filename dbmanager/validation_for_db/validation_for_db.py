@@ -80,12 +80,12 @@ class Vacanci(BaseModel):
         else:
             return value
 
-    def beautiful_output(self):
-        """Вывод отвалидированых данных в требуемом формате"""
-        return f'Вакансия:         {self.name}\n' \
-               f'Организация:      {self.employer.name}\n' \
-               f'Зарплата:         от {self.salary.from_ if self.salary.from_ else "-"} до ' \
-               f'{self.salary.to if self.salary.to else "-"} {self.salary.currency}\n' \
-               f'Адрес:            {self.address.raw if self.address != "Не указан" else "Не указан"}\n' \
-               f'Ссылка:           {self.alternate_url}\n' \
-               f'Дата размещения:  {self.published_at}\n'
+    # def beautiful_output(self):
+    #     """Вывод отвалидированых данных в требуемом формате"""
+    #     return f'Вакансия:         {self.name}\n' \
+    #            f'Организация:      {self.employer.name}\n' \
+    #            f'Зарплата:         от {self.salary.from_ if self.salary.from_ else "-"} до ' \
+    #            f'{self.salary.to if self.salary.to else "-"} {self.salary.currency}\n' \
+    #            f'Адрес:            {self.address.raw if self.address != "Не указан" else "Не указан"}\n' \
+    #            f'Ссылка:           {self.alternate_url}\n' \
+    #            f'Дата размещения:  {self.published_at}\n'

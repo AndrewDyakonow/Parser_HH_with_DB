@@ -18,7 +18,7 @@ class DBManager:
         self.db_name = 'course_work_5_db'
         self.list_vacancies = ProcessingData.get_vacancies_list(Vacanci)
 
-    def create_db(self):
+    def create_db(self) -> None:
         """Создание базы данных"""
         connector = psycopg2.connect(dbname='postgres', **config.get_config_db())
         connector.autocommit = True
@@ -34,7 +34,7 @@ class DBManager:
             cursor.close()
             connector.close()
 
-    def create_table(self):
+    def create_table(self) -> None:
         """Создание таблиц в БД"""
         connector = psycopg2.connect(dbname=self.db_name, **config.get_config_db())
         with connector.cursor() as cursor:
@@ -42,7 +42,7 @@ class DBManager:
                     CREATE TABLE company 
                     (
                         id_company      int PRIMARY KEY,
-	                    name_company    text UNIQUE NOT NULL,
+	                    name_company    varchar(125) UNIQUE NOT NULL,
 	                    url             text,
 	                    adress          text
                     )
@@ -53,9 +53,9 @@ class DBManager:
                                 CREATE TABLE vacancy 
                     (
                         id_vacancy      int PRIMARY KEY,
-	                    name_company    varchar(32) REFERENCES company (name_company) NOT NULL,
-						name_vacancy	varchar(32) NOT NULL,
-						adress			varchar(100),
+	                    name_company    text REFERENCES company (name_company) NOT NULL,
+						name_vacancy	text NOT NULL,
+						adress			text,
 	                    url             varchar(80),
 	                    salary_from		integer,
 						salary_to		integer,
@@ -67,8 +67,9 @@ class DBManager:
         connector.close()
 
         self.filling_db()
+        self.filling_db_table()
 
-    def filling_db(self):
+    def filling_db(self) -> None:
         """Заполнение базы данных данными"""
         connector = psycopg2.connect(dbname=self.db_name, **config.get_config_db())
         connector.autocommit = True
@@ -93,8 +94,64 @@ class DBManager:
         connector.commit()
         connector.close()
 
+    def filling_db_table(self) -> None:
+        """Заполнение базы данных данными"""
+        connector = psycopg2.connect(dbname=self.db_name, **config.get_config_db())
+        connector.autocommit = True
+        with connector.cursor() as cursor:
+            for data in self.list_vacancies:
+                try:
+                    if data.address == 'Не указан':
+                        address = None
+                    else:
+                        address = data.address.raw
+                    cursor.execute(
+                        '''
+                        INSERT INTO vacancy 
+                        VALUES (%s, %s, %s, %s, %s, %s, %s, %s, %s)
+                        ''',
+                        (
+                            data.id,
+                            data.employer.name,
+                            data.name,
+                            address,
+                            data.alternate_url,
+                            data.salary.from_,
+                            data.salary.to,
+                            data.snippet.requirement,
+                            data.snippet.responsibility,
+                        )
+                    )
+                except psycopg2.errors.UniqueViolation:
+                    continue
+
+        connector.commit()
+        connector.close()
+
+        self.get_companies_and_vacancies_count()
+
     def get_companies_and_vacancies_count(self):
         """Получить список всех компаний и количество вакансий у каждой компании."""
+        connector = psycopg2.connect(dbname=self.db_name, **config.get_config_db())
+        connector.autocommit = True
+        with connector.cursor() as cursor:
+            cursor.execute(
+                """ 
+                    SELECT name_company, COUNT (vacancy.name_company) AS count_vacancy
+                    FROM company
+                    INNER JOIN vacancy USING (name_company)
+                    GROUP BY company.name_company
+                    ORDER BY count_vacancy DESC
+                    LIMIT 20
+                """
+            )
+            mobile_records = cursor.fetchall()
+
+            print(mobile_records)
+
+
+        connector.commit()
+        connector.close()
 
     def get_all_vacancies(self):
         """
