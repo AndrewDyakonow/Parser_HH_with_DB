@@ -13,6 +13,10 @@ class Dialog:
         print('Для продолжения нажмите ENTER')
         input()
 
+    @staticmethod
+    def second_dialog():
+        """Диалог по базе данных"""
+
 
     @staticmethod
     def input_key():

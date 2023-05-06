@@ -2,21 +2,17 @@ import psycopg2
 from psycopg2 import errors
 from app.processing_data.processing_data import ProcessingData
 from dbmanager.validation_for_db.validation_for_db import Vacanci
+from dbmanager.dbmanager_utils import get_avg_salary
 
 import config
 
 
 class DBManager:
-    __db_object = None
-
-    def __new__(cls):
-        if cls.__db_object is None:
-            cls.__db_object = super().__new__(cls)
-        return cls.__db_object
 
     def __init__(self):
         self.db_name = 'course_work_5_db'
         self.list_vacancies = ProcessingData.get_vacancies_list(Vacanci)
+        self.avg_salary = None
 
     def create_db(self) -> None:
         """Создание базы данных"""
@@ -42,7 +38,7 @@ class DBManager:
                     CREATE TABLE company 
                     (
                         id_company      int PRIMARY KEY,
-	                    name_company    varchar(125) UNIQUE NOT NULL,
+	                    name_company    text UNIQUE NOT NULL,
 	                    url             text,
 	                    adress          text
                     )
@@ -57,17 +53,13 @@ class DBManager:
 						name_vacancy	text NOT NULL,
 						adress			text,
 	                    url             varchar(80),
-	                    salary_from		integer,
-						salary_to		integer,
+	                    salary		    int,
 						requirement		text,
 						responsibiliti 	text
                     );
                                 """)
         connector.commit()
         connector.close()
-
-        self.filling_db()
-        self.filling_db_table()
 
     def filling_db(self) -> None:
         """Заполнение базы данных данными"""
@@ -105,10 +97,13 @@ class DBManager:
                         address = None
                     else:
                         address = data.address.raw
+
+                    salary = get_avg_salary(data.salary.from_, data.salary.to)
+
                     cursor.execute(
                         '''
                         INSERT INTO vacancy 
-                        VALUES (%s, %s, %s, %s, %s, %s, %s, %s, %s)
+                        VALUES (%s, %s, %s, %s, %s, %s, %s, %s)
                         ''',
                         (
                             data.id,
@@ -116,8 +111,7 @@ class DBManager:
                             data.name,
                             address,
                             data.alternate_url,
-                            data.salary.from_,
-                            data.salary.to,
+                            salary,
                             data.snippet.requirement,
                             data.snippet.responsibility,
                         )
@@ -127,8 +121,6 @@ class DBManager:
 
         connector.commit()
         connector.close()
-
-        self.get_companies_and_vacancies_count()
 
     def get_companies_and_vacancies_count(self):
         """Получить список всех компаний и количество вакансий у каждой компании."""
@@ -141,14 +133,11 @@ class DBManager:
                     FROM company
                     INNER JOIN vacancy USING (name_company)
                     GROUP BY company.name_company
-                    ORDER BY count_vacancy DESC
-                    LIMIT 20
+                    ORDER BY count_vacancy ASC
                 """
             )
-            mobile_records = cursor.fetchall()
 
-            print(mobile_records)
-
+            self.__output_request(cursor.fetchall())
 
         connector.commit()
         connector.close()
@@ -158,13 +147,79 @@ class DBManager:
         Получить список всех вакансий с указанием названия компании,
         названия вакансии и зарплаты и ссылки на вакансию.
         """
+        connector = psycopg2.connect(dbname=self.db_name, **config.get_config_db())
+        connector.autocommit = True
+        with connector.cursor() as cursor:
+            cursor.execute(
+                """ 
+                    SELECT name_company, name_vacancy, salary, url 
+                    FROM vacancy
+                """
+            )
+
+            self.__output_request(cursor.fetchall())
+
+        connector.commit()
+        connector.close()
 
     def get_avg_salary(self):
         """Получить среднюю зарплату по вакансиям."""
+        connector = psycopg2.connect(dbname=self.db_name, **config.get_config_db())
+        connector.autocommit = True
+        with connector.cursor() as cursor:
+            cursor.execute(
+                """ 
+                    SELECT AVG (salary) AS avg_salary
+                    FROM vacancy
+                """
+            )
+
+            self.avg_salary = cursor.fetchall()
+            self.__output_request(self.avg_salary)
+
+        connector.commit()
+        connector.close()
 
     def get_vacancies_with_higher_salary(self):
         """Получить список всех вакансий, у которых зарплата выше средней по всем вакансиям."""
+        connector = psycopg2.connect(dbname=self.db_name, **config.get_config_db())
+        connector.autocommit = True
+        with connector.cursor() as cursor:
+            cursor.execute(
+                """ 
+                    SELECT name_vacancy, salary
+                    FROM vacancy
+                    WHERE salary > (SELECT AVG(salary) FROM vacancy)
+                """
+            )
 
-    def get_vacancies_with_keyword(self):
+            self.__output_request(cursor.fetchall())
+
+        connector.commit()
+        connector.close()
+
+    def get_vacancies_with_keyword(self, word):
         """Получить список всех вакансий, в названии которых
-        содержатся переданные в метод слова, например “python”."""
+        содержатся переданные в метод слова, например 'python'."""
+        connector = psycopg2.connect(dbname=self.db_name, **config.get_config_db())
+        connector.autocommit = True
+        with connector.cursor() as cursor:
+            cursor.execute(
+                f""" 
+                    select name_vacancy
+                    from vacancy
+                    where LOWER (name_vacancy) LIKE ('%{word}%')
+                """
+            )
+
+            self.__output_request(cursor.fetchall())
+
+        connector.commit()
+        connector.close()
+
+    @staticmethod
+    def __output_request(data):
+        """Вывод результатов запроса"""
+        for line in data:
+            print('=' * 100)
+            print(*line, sep=' |*| ')

@@ -35,7 +35,7 @@ class Salary(BaseModel):
     @classmethod
     def validate_from(cls, value):
         if value is None:
-            return 0
+            return None
         else:
             return value
 
@@ -43,7 +43,7 @@ class Salary(BaseModel):
     @classmethod
     def validate_to(cls, value):
         if value is None:
-            return 0
+            return None
         else:
             return value
 
