@@ -1,4 +1,4 @@
-# course_work_5_release
+# Parser_HH_with_DB
 
 ___
 ## Курсовой проект по Работе с базами данных 
