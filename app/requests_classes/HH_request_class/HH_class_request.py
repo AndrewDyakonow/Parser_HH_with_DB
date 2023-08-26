@@ -1,10 +1,11 @@
-from typing import Dict, List, Any
+from typing import Any
 
 import requests
 
 
-class HH_request():
+class HH_request:
     """Класс запроса вакансий на HH"""
+
     def __init__(self, text, area=113):
         self.text = text
         self.area = area
@@ -14,7 +15,7 @@ class HH_request():
     def get_data(self) -> dict[str, list[Any]]:
         """Запрос"""
         responce = {"items": []}
-        for page in range(1, 11):
+        for page in range(1, 2):
             respon = requests.get(
                 url=self.url,
                 params={
@@ -22,7 +23,8 @@ class HH_request():
                     'per_page': 50,
                     'page': self.page,
                     'area': self.area,
-                    'only_with_salary': True
+                    'only_with_salary': True,
+                    'search_field': 'name',
                 },
             )
             self.page += 1

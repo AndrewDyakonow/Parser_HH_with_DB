@@ -1,7 +1,7 @@
 from configparser import ConfigParser
 
 
-def get_config_db(filename='db.ini', section='course_work_5'):
+def get_config_db(filename='database.ini', section='postgresql'):
     """Прочитать конфигурацию базы данных"""
     parser = ConfigParser()
     parser.read(filename)

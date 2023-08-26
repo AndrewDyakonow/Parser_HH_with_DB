@@ -17,18 +17,18 @@ ___
 
 1. Откройте проект с помощью Get from VCS.
 2. Введите ссылку на удалённый репозиторий. 
-    ```
+```bash
     git@github.com:AndrewDyakonow/Course_work_5.git
-   ```
+```
 3. Создайте и активируйте виртуальное окружение.
-    ```
+```bash
     python3 -m venv venv
     source venv/bin/activate
-   ```
+```
 4. Установите зависимости.
-    ```
+```
     pip install -r requirements.txt
-   ```
+```
 ___
 
 ## Описание
