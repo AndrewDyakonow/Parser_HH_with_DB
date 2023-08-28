@@ -1,5 +1,5 @@
 
-<center> 
+<p align="center"> 
 
 # Parser_HH_with_DB
 ## Парсинг вакансий. Работа с базой данных 
@@ -15,7 +15,7 @@
     <a href="https://www.postgresql.org/"><img width="48" height="48" src="https://img.icons8.com/color/48/postgreesql.png" alt="postgreesql"/></a>
 </div>
 
-</center>
+</p>
 
 ___
 ## Задачи
