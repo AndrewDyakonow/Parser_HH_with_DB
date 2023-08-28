@@ -1,6 +1,4 @@
 from app.processing_json_file.class_json_processing import JsonProcessing
-from app.validation.validation_HH import Vacancies
-from dbmanager.validation_for_db.validation_for_db import Vacanci
 from pydantic import ValidationError
 
 

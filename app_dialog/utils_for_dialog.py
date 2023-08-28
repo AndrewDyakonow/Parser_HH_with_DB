@@ -4,13 +4,12 @@ from dbmanager.dbManager_class import DBManager
 
 def dialog_one():
     """Диалог с пользователем № 1"""
-    global list_vacancies
     prog = None
     Dialog.first_dialog()
 
     while prog != "q":
         word = Dialog.input_key()
-        list_vacancies = Dialog.requests(word)
+        list_vacancies: list = Dialog.requests(word)
         if len(list_vacancies) == 0:
             prog = input('Вы можете попробовать ввести новые слово или фразу для поиска, или ввести "Q" для выхода')
         else:
@@ -58,19 +57,24 @@ def dialog_two():
 
 def choise_request(user_choice, db_data):
     """Выбор запроса"""
-    if user_choice == 1:
-        db_data.get_companies_and_vacancies_count()
-    elif user_choice == 2:
-        db_data.get_all_vacancies()
-    elif user_choice == 3:
-        db_data.get_avg_salary()
-    elif user_choice == 4:
-        db_data.get_vacancies_with_higher_salary()
-    elif user_choice == 5:
-        while True:
-            word = input('Введите слово для поиска: ')
-            if word:
-                db_data.get_vacancies_with_keyword(word.lower())
-                break
-            else:
-                print("Попробуй ещё! ")
+    choice = {
+        1: db_data.get_companies_and_vacancies_count,
+        2: db_data.get_all_vacancies,
+        3: db_data.get_avg_salary,
+        4: db_data.get_vacancies_with_higher_salary,
+    }
+
+    if user_choice == 5:
+        search_in_db(db_data)
+    else:
+        choice.get(user_choice)()
+
+
+def search_in_db(db_data):
+    while True:
+        word = input('Введите слово для поиска: ')
+        if word:
+            db_data.get_vacancies_with_keyword(word.lower())
+            break
+        else:
+            print("Попробуй ещё! ")

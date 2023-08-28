@@ -17,11 +17,9 @@ class Dialog:
     def second_dialog():
         """Диалог по базе данных"""
 
-
     @staticmethod
     def input_key():
         """Ввод ключевого слова"""
-        global word
         print('Введите слово или фразу для поиска для поиска\n')
         input_word = True
 

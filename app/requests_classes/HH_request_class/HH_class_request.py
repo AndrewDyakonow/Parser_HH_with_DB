@@ -3,7 +3,7 @@ from typing import Any
 import requests
 
 
-class HH_request:
+class HHrequest:
     """Класс запроса вакансий на HH"""
 
     def __init__(self, text, area=113):
