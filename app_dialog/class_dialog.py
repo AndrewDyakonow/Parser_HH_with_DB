@@ -20,7 +20,7 @@ class Dialog:
     @staticmethod
     def input_key():
         """Ввод ключевого слова"""
-        print('Введите слово или фразу для поиска для поиска\n')
+        print('Введите слово или фразу для поиска\n')
         input_word = True
 
         while input_word:

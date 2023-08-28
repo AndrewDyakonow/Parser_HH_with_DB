@@ -175,7 +175,8 @@ class DBManager:
             )
 
             self.avg_salary = cursor.fetchall()
-            self.__output_request(self.avg_salary)
+            result = f'{int(self.avg_salary[0][0])} руб'
+            self.__output_request([(result,)])
 
         connector.commit()
         connector.close()
