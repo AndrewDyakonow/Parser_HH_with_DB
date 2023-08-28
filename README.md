@@ -4,6 +4,7 @@
 <h1 align="center">Parser_HH_with_DB</h1>
 <h2 align="center">Парсинг вакансий. Работа с базой данных</h2>
 
+<div align="center">
 <div>
     <a href="https://docs.pydantic.dev/latest/contributing/#badges" rel="nofollow"><img src="https://pypi-camo.global.ssl.fastly.net/efb81286fc744fbf809859d1089c3c8b100bbfd3/68747470733a2f2f696d672e736869656c64732e696f2f656e64706f696e743f75726c3d68747470733a2f2f7261772e67697468756275736572636f6e74656e742e636f6d2f707964616e7469632f707964616e7469632f6d61696e2f646f63732f62616467652f76322e6a736f6e" alt="Pydantic v2"></a>
     <a href="https://pypi.org/project/requests/2.29.0/"> <img alt="Static Badge" src="https://img.shields.io/badge/requests-2.29.0-green"></a>
@@ -13,7 +14,7 @@
     <a href="https://www.python.org/"><img width="48" height="48" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python"/></a>
     <a href="https://www.postgresql.org/"><img width="48" height="48" src="https://img.icons8.com/color/48/postgreesql.png" alt="postgreesql"/></a>
 </div>
-
+</div>
 
 ___
 ## Задачи
