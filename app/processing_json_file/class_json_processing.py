@@ -1,6 +1,5 @@
-from app.requests_classes.HH_request_class.HH_class_request import HH_request
+from app.requests_classes.HH_request_class.HH_class_request import HHrequest
 import json
-from app_dialog.user_exception import ErrorServiceName
 
 
 class JsonProcessing:
@@ -12,7 +11,7 @@ class JsonProcessing:
     def create_file(cls, text) -> None:
         """Сохранение файлов в json"""
         with open(cls.json_file_name, 'w', encoding='utf-8') as file:
-            ex_data = HH_request(text)
+            ex_data = HHrequest(text)
             data = ex_data.get_data()
             json.dump(data, file, ensure_ascii=False, indent=4)
 

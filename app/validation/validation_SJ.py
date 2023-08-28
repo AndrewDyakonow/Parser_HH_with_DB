@@ -34,7 +34,7 @@ class Employer(BaseModel):
             return value
 
 
-class Vacancies_SJ(BaseModel):
+class VacanciesSJ(BaseModel):
     """Валидация данных"""
     profession: str | None
     client: Employer | None

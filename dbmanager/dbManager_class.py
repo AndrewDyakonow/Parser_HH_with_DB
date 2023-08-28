@@ -122,7 +122,7 @@ class DBManager:
         connector.commit()
         connector.close()
 
-    def get_companies_and_vacancies_count(self):
+    def get_companies_and_vacancies_count(self, **kwargs):
         """Получить список всех компаний и количество вакансий у каждой компании."""
         connector = psycopg2.connect(dbname=self.db_name, **config.get_config_db())
         connector.autocommit = True
