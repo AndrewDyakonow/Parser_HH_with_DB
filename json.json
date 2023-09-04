@@ -1,0 +1,87 @@
+{
+  'id': '85984021',
+  'premium': False,
+  'name': 'Разработчик Backend Python Developer Middle',
+  'department': None,
+  'has_test': False,
+  'response_letter_required': False,
+  'area': {
+    'id': '1641',
+    'name': 'Набережные Челны',
+    'url': 'https://api.hh.ru/areas/1641'
+  },
+  'salary': {
+    'from': 130000,
+    'to': None,
+    'currency': 'RUR',
+    'gross': False
+  },
+  'type': {
+    'id': 'open',
+    'name': 'Открытая'
+  },
+  'address': {
+    'city': 'Набережные Челны',
+    'street': 'Трубный проезд',
+    'building': '22/11',
+    'lat': 55.716255,
+    'lng': 52.419401,
+    'description': None,
+    'raw': 'Набережные Челны, Трубный проезд, 22/11',
+    'metro': None,
+    'metro_stations': [],
+    'id': '650185'
+  },
+  'response_url': None,
+  'sort_point_distance': None,
+  'published_at': '2023-08-30T09:40:25+0300',
+  'created_at': '2023-08-30T09:40:25+0300',
+  'archived': False,
+  'apply_alternate_url': 'https://hh.ru/applicant/vacancy_response?vacancyId=85984021',
+  'show_logo_in_search': None,
+  'insider_interview': None,
+  'url': 'https://api.hh.ru/vacancies/85984021?host=hh.ru',
+  'alternate_url': 'https://hh.ru/vacancy/85984021',
+  'relations': [],
+  'employer': {
+    'id': '2335629',
+    'name': 'ТАТПАРТС',
+    'url': 'https://api.hh.ru/employers/2335629',
+    'alternate_url': 'https://hh.ru/employer/2335629',
+    'logo_urls': {
+      '240': 'https://hhcdn.ru/employer-logo/1761215.png',
+      'original': 'https://hhcdn.ru/employer-logo-original/329716.png',
+      '90': 'https://hhcdn.ru/employer-logo/1761214.png'
+    },
+    'vacancies_url': 'https://api.hh.ru/vacancies?employer_id=2335629',
+    'accredited_it_employer': False,
+    'trusted': True
+  },
+  'snippet': {
+    'requirement': 'Опыт разработки на <highlighttext>Python</highlighttext> / Django более 2 лет. – Опыт работы с Docker, Linux, Git, PostgreSQL, SQL. – Знание английского языка на...',
+    'responsibility': 'Участие в проекте по развитию маркетплейса запасных частей. – Взаимодействовать с бэкендом проекта через API. – Поддерживать актуальную документацию проекта. – '
+  },
+  'contacts': None,
+  'schedule': None,
+  'working_days': [],
+  'working_time_intervals': [],
+  'working_time_modes': [],
+  'accept_temporary': False,
+  'professional_roles': [
+    {
+      'id': '96',
+      'name': 'Программист, разработчик'
+    }
+  ],
+  'accept_incomplete_resumes': False,
+  'experience': {
+    'id': 'between1And3',
+    'name': 'От 1 года до 3 лет'
+  },
+  'employment': {
+    'id': 'full',
+    'name': 'Полная занятость'
+  },
+  'adv_response_url': None,
+  'is_adv_vacancy': False
+}

@@ -72,6 +72,7 @@ class Vacanci(BaseModel):
     published_at: str | None
     snippet: Snippet | None
 
+
     @validator('address')
     @classmethod
     def validate_address(cls, value):
