@@ -1,0 +1,70 @@
+{% extends 'main/base.html' %}
+
+{% block content %}
+
+    <header>
+        <div class="pricing-header p-3 pb-md-4 mx-auto text-center">
+            <h1 class="display-4 fw-normal text-body-emphasis">Вакансия</h1>
+            <p class="fs-5 text-body-secondary">Раздел находится в разработке.</p>
+            <p class="fs-5 text-body-secondary">Пока можно видеть список спарсенных вакансий</p>
+        </div>
+    </header>
+
+    <main>
+        <div class="row">
+            <div class="col-4"></div>
+            <div class="col-4">
+
+                <div class="col">
+                    <div class="card mb-4 rounded-3 shadow-sm">
+                        <div class="card-header py-3">
+                            <h4 class="my-0 fw-normal">{{ object.name_company }}</h4>
+                        </div>
+                        <div class="card-body">
+                            <h3 class="card-title pricing-card-title">{{ object.name_vacancy}}<small
+                                    class="text-body-secondary fw-light"></small></h3>
+                            <ul class="list-unstyled mt-3 mb-4">
+                                <li><strong>Адрес</strong>: {% if object.adress %}{{ object.adress }}{% else %}Не указан{% endif %}</li>
+                                <li>
+                                            <strong>Зарплата:</strong>
+                                       {% if object.salary_from and object.salary_to%}
+                                            от {{ object.salary_from }} до {{ object.salary_to }}
+                                        {% elif object.salary_from and object.salary_to == False%}
+                                            от {{ object.salary_from }}
+                                        {% elif object.salary_from == False and object.salary_to%}
+                                            до {{ object.salary_to }}
+                                        {% else %}
+                                            Не указана
+                                        {% endif %}
+                                    </li>
+                                <li><strong>Требования</strong>: {{ object.requirement|safe }}</li>
+                                {% if object.responsibiliti %}
+                                <li><strong>Задачи</strong>:{{ object.responsibiliti|safe }}</li>
+                                {% endif %}
+                                <li></li>
+                                <li><a href="{{ object.url }}"></a></li>
+                                {% if object.salary %}
+                                <li>
+                                {{ object.salary_from }}
+                                {{ object.salary_to }}
+                                {% endif %}
+                                </li>
+                                <li><strong>Ссылка</strong>: <a href="{{ object.url }}">{{ object.url }}</a></li>
+                                <li><strong>Дата</strong>: {{ object.date_created }}</li>
+                            </ul>
+                            <a href="{% url 'parser_pages:vacancies_list' %}"
+                                    class="w-100 btn btn-lg btn-primary">
+                                Назад
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="col-4"></div>
+        </div>
+
+
+    </main>
+
+{% endblock %}

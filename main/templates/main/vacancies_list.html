@@ -1,0 +1,50 @@
+{% extends 'main/base.html' %}
+
+{% block content %}
+
+    <div class="container py-3">
+        <header>
+            <div class="pricing-header p-3 pb-md-4 mx-auto text-center">
+                <h1 class="display-4 fw-normal text-body-emphasis">Вакансии</h1>
+                <p class="fs-5 text-body-secondary">Раздел находится в разработке.</p>
+                <p class="fs-5 text-body-secondary">Пока можно видеть список спарсенных вакансий</p>
+            </div>
+        </header>
+
+        <main>
+            <div class="row row-cols-1 row-cols-md-3 mb-3 text-center">
+                {% for object in object_list %}
+                    <div class="col">
+                        <div class="card mb-4 rounded-3 shadow-sm">
+                            <div class="card-header py-3">
+                                <h4 class="my-0 fw-normal">{{ object.name_company|truncatechars:20 }}</h4>
+                            </div>
+                            <div class="card-body">
+                                <h3 class="card-title pricing-card-title">{{ object.name_vacancy|truncatechars:20 }}<small
+                                        class="text-body-secondary fw-light"></small></h3>
+                                <ul class="list-unstyled mt-3 mb-4">
+                                    <li></li>
+                                    <li>
+                                            <strong>Зарплата:</strong>
+                                       {% if object.salary_from and object.salary_to%}
+                                            от {{ object.salary_from }} до {{ object.salary_to }}
+                                        {% elif object.salary_from and object.salary_to == False%}
+                                            от {{ object.salary_from }}
+                                        {% elif object.salary_from == False and object.salary_to%}
+                                            до {{ object.salary_to }}
+                                        {% else %}
+                                            Не указана
+                                        {% endif %}
+                                    </li>
+                                    <li>{{ object.date_created }}</li>
+                                </ul>
+                                <a class="btn {% if object.view %}btn-primary{% else %}btn-success{% endif %}" href="{% url 'parser_pages:vacancy_detail' object.pk %}">Посмотреть</a>
+                            </div>
+                        </div>
+                    </div>
+                {% endfor %}
+            </div>
+        </main>
+    </div>
+        {% include 'main/pagination/paginate.html' with page=page_obj %}
+{% endblock %}
