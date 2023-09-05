@@ -1,4 +1,3 @@
-import json
 from typing import Any
 
 import requests
@@ -13,7 +12,7 @@ class HHrequest:
         self.url = 'https://api.hh.ru/vacancies'
         self.page = 1
 
-    def get_data(self):
+    def get_data(self) -> dict[str, list[Any]]:
         """Запрос"""
         responce = {"items": []}
         for page in range(1, 10):
@@ -29,5 +28,6 @@ class HHrequest:
                 },
             )
             self.page += 1
+
             responce.get('items').extend(respon.json().get("items"))
         return responce
